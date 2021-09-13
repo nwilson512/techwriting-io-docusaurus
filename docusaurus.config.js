@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Nathaniel Wilson',
   tagline: 'Technical Writing Leader',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://techwriting-io-docusaurus.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
