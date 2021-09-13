@@ -23,7 +23,7 @@ Your VM authenticates with other components through encrypted key pairs. Before 
 You can manage your keys on GCP in one of two ways: you can use the [OS Login](https://cloud.google.com/compute/docs/oslogin/) Google service, or you can manage keys manually in the project metadata [manually](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys).
 
 :::note
-CAUTION: I strongly recommend following Google's advice and using <a href="https://cloud.google.com/compute/docs/oslogin/">OS Login</a> for production servers.
+CAUTION: I strongly recommend following Google's advice and using [OS Login](https://cloud.google.com/compute/docs/oslogin/) for production servers.
 :::
 
 **Perform the following steps to create a key pair and manually add a key to a GCP Project:**
@@ -58,18 +58,18 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
 
 5. Select **SSH Keys**, then select the **Edit** button:
 
-    <img class="imgOverrideSmall" src="/img/gcpSshEdit.png"/>
+    ![](/img/gcpSshEdit.png)
 
 7. Select **+ Add item**:
 
-    <img class="imgOverrideSmall" src="/img/gcpAddItem.png"/>
+   ![](/img/gcpAddItem.png)
 
 8. Paste your public key into the key text field in the Google Cloud console:
 
-    <img class="imgOverrideSmall" src="/img/gcpPaste.png"/>
+    ![](/img/gcpPaste.png)
 
     :::note
-    <p>NOTE: This process manually assigns fixed key access. I strongly recommend rotating your keys on a planned interval as part of your security policies. </p>
+    This process manually assigns fixed key access. I strongly recommend rotating your keys on a planned interval as part of your security policies.
     :::
 
 9. Ensure your public key was properly added by connecting to your VM using secure shell (SSH):
@@ -80,5 +80,5 @@ CAUTION: I strongly recommend following Google's advice and using <a href="https
 
 
 
-<br/>
-<p style="font-size: small;"><i>Citation note:</i> I referenced the linked Google production documentation when I wrote this page, specifically the articles: <a href="https://cloud.google.com/compute/docs/oslogin/">OS Login</a> and <a href="https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys">Managing SSH keys in metadata</a>. In production doc, I would simply link to this documentation. However, this is a writing exercise, and I've documented my own steps for sample purposes.</p>
+
+_Citation note:_ I referenced the linked Google production documentation when I wrote this page, specifically the articles: [OS Login](https://cloud.google.com/compute/docs/oslogin/) and [Managing SSH keys in metadata](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys). In production doc, I would simply link to this documentation. However, this is a writing exercise, and I've documented my own steps for sample purposes.
