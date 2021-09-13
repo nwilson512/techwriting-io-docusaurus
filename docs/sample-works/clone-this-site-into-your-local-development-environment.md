@@ -35,7 +35,7 @@ If you're not installing a new Statamic site, but instead cloning an existing si
 
 4. Verify your site by navigating to your folder's name in your browser. For example, if your folder name is "examplesite", navigate to "examplesite.test":
 
-    ![browser bar image](/img/verifysitename.png)
+    ![browser bar image](/img/verifySiteName.png)
 
     :::note
     <p>NOTE: If you receive a 403 "Access Forbidden" error when attempting to view your site, try the following troubleshooting steps:</p>
