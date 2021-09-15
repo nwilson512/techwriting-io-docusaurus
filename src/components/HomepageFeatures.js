@@ -4,6 +4,15 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
+    title: 'Leadership',
+    Svg: require('../../static/img/undraw_professor_8lrt.svg').default,
+    description: (
+      <>
+        Hiring -- Managing -- Sprint planning -- Style guides -- Content review
+      </>
+    ),
+  },
+  {
     title: 'Technical writing',
     Svg: require('../../static/img/undraw_Designer_by46.svg').default,
     description: (

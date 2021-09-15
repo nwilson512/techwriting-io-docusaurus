@@ -25,11 +25,11 @@ In order to successfully follow the instructions in this document, you must meet
 
 **Perform the steps in the following documents to create and run a Statamic web server on Google Cloud Platform:**
 
-1. [Create a Google Cloud Platform Compute Engine instance](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance)
-2. [Create a key and add it to GCP](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-key-and-add-it-to-gcp)
-3. [Install web server dependencies](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies)
+1. [Create a Google Cloud Platform Compute Engine instance](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-google-cloud-platform-compute-engine-instance)
+2. [Create a key and add it to GCP](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-key-and-add-it-to-gcp)
+3. [Install web server dependencies](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/install-web-server-dependencies)
 <!-- 4. [Configure PHP](/samples/writing/configure-php) -->
-5. [Add GitHub access to your VM](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/add-github-access-to-your-vm)
-6. [Clone your repository into your web server](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server)
-7. [Configure Apache](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/configure-apache)
-8. [Create a new virtual host configuration](/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration)
+5. [Add GitHub access to your VM](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/add-github-access-to-your-vm)
+6. [Clone your repository into your web server](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/clone-your-repository-into-your-web-server)
+7. [Configure Apache](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/configure-apache)
+8. [Create a new virtual host configuration](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/create-a-new-virtual-host-configuration)

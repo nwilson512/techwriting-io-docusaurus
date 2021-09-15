@@ -122,7 +122,7 @@ router.get('/v1/docs', function(req, res) {
         <...>
 ```
 
-I wrote an API documentation automation script, which automatically retrieves the reference documentation for this site from this endpoint, parses, and writes the data into this page's YAML frontmatter. For more information, including the full code, see the [API Documentation Automation](/sample-works/api-documentation-automation) section of my sample work.
+I wrote an API documentation automation script, which automatically retrieves the reference documentation for this site from this endpoint, parses, and writes the data into this page's YAML frontmatter. For more information, including the full code, see the [API Documentation Automation](/docs/sample-works/api-documentation-automation) section of my sample work.
 
 ### API versioning
 
@@ -146,6 +146,6 @@ mongoose.connect('mongodb://XXXXXX:yyyYYYyy@zzzZZZZz.mlab.com:55555/api', { useN
 
 ### More information
 
-For more information, see the full Rock Paper Scissors API code in the [Samples](/sample-works/rock-paper-scissors-api) section.
+For more information, see the full Rock Paper Scissors API code in the [Samples](/docs/sample-works/rock-paper-scissors-api) section.
 
 ## API reference

@@ -28,8 +28,8 @@ Once you've added your web server's key to GitHub, you can clone and pull from t
     git clone git@github.com:exampleUser/exampleRepo.git
     ```
 
-    :::note
-    IMPORTANT: You must use SSH syntax to clone a repository using a deploy key, HTTP syntax is unsupported.
+    :::caution
+    You must use SSH syntax to clone a repository using a deploy key, HTTP syntax is unsupported.
     :::
 
 Once complete, validate the clone operation by checking the folders under webroot. They should appear exactly as they do in your repository:
