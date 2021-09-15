@@ -3,8 +3,6 @@ title: 'Configure PHP'
 type: task
 ---
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
-
 1. Increase your php memory limits:
 
   1. Open the `php-memory-limits.ini` configuration file using vim:
@@ -42,4 +40,3 @@ type: task
       date.timezone = America/Los_Angeles
       ```
 
-[← Back to landing](/writing-samples/create-a-statamic-web-server-on-google-cloud-platform)
