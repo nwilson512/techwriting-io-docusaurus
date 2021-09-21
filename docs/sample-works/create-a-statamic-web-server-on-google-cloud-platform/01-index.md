@@ -11,7 +11,7 @@ When you want to move into production, you'll need to create and run a web serve
 The instructions in this document detail one such option: Creating a web server on Google Cloud Platform (GCP), and assume that you already have a GCP account.
 
 :::note
-<p>CAUTION: These instructions require a paid account with Google Cloud Platform. Costs can add up quickly on cloud platforms, particularly with higher tier compute instances and other specialty services. Do not proceed unless you are already familiar and with comfortable with the costs of operating on a cloud provider.</p>
+These instructions require a paid account with Google Cloud Platform. Costs can add up quickly on cloud platforms, particularly with higher tier compute instances and other specialty services. Do not proceed unless you are already familiar and with comfortable with the costs of operating on a cloud provider.
 :::
 
 #### Prerequisites
