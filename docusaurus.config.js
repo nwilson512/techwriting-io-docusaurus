@@ -12,7 +12,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/pencil.png',
   organizationName: 'nwilson512', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'techwriting-io-docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -30,6 +30,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/blog/',
         },
+        pages: {}, // I added pages to the preset here, but I'm not yet sure what to do next
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -47,15 +48,36 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/pencil.svg',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'All docs files',
+          // },
+          // {
+          //   type: 'doc',
+          //   docId: 'sample-works/create-a-statamic-web-server-on-google-cloud-platform/index',
+          //   position: 'left',
+          //   label: 'GCP sample',
+          // },
           {
-            type: 'doc',
-            docId: 'intro',
+            to: 'resume',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Resume',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'sample-works',
+            position: 'left',
+            label: 'Sample works',
+          },
+          {
+            to: 'how-i-write',
+            position: 'left',
+            label: 'How I write',
+          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/nwilson512',
             label: 'GitHub',
             position: 'right',
           },

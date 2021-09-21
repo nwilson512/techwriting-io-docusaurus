@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_Designer_by46.svg').default,
     description: (
       <>
-        Content planning/strategy -- DITA -- Copyediting -- Markup syntaxes
+        Content planning/strategy -- DITA -- Copyediting -- Markup syntaxes -- Docs-as-code
       </>
     ),
   },
