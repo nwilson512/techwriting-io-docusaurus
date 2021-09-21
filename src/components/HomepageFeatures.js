@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_programming_2svr.svg').default,
     description: (
       <>
-        Git, CI (travis) -- Javascript, shell scripting -- Containerization
+        Git, CI (travis) -- Javascript, Node.js, Nginx -- Kubernetes
       </>
     ),
   },
