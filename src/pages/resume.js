@@ -6,9 +6,9 @@ import ResumeExperience from "../components/ResumeExperience"
 export default function render() {
     return(
         <>
+            <ResumeExperience />
             <ResumeEducation />
             <ResumeSkills />
-            <ResumeExperience />
         </>
     )
 }

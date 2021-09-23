@@ -6,30 +6,40 @@ const skills = JSONData.skills_section;
 class RenderSkills extends Component {
     render() {
         return(
+            // wraps whole skills section
             <div>
                 <h2>
                     {skills.skills_section_name}
                 </h2>
-                {
-                    skills.subsection.map((subsection) => {
-                        return(
-                            <div>
-                                <h3>
-                                    {subsection.subsection_name}
+                {/* wraps all skills listings */}
+                <div>
+                    {
+                        skills.subsection.map((subsection) => {
+                            return(
+                                // wraps single skill type
+                                <div>
+                                    <h3>
+                                        {subsection.subsection_name}
                                     </h3>
-                                { 
-                                    subsection.subsection_list.map((list) => {
-                                        return(
-                                            <ul>
-                                                {list}
-                                            </ul>
-                                        );    
-                                    }) 
-                                }
-                            </div>
-                        );
-                    })
-                }
+                                    {/* wraps skills list */}
+                                    <div>
+                                        <ul>
+                                            { 
+                                                subsection.subsection_list.map((list) => {
+                                                    return(
+                                                        <li>
+                                                            {list}
+                                                        </li>
+                                                    );    
+                                                }) 
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            );
+                        })
+                    }
+                </div>
             </div>
         );
     }
