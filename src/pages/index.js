@@ -12,6 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        {/* <Avatar /> */}
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -36,6 +37,25 @@ function HomepageHeader() {
         </div>
       </div>
     </header>
+  );
+}
+
+function Avatar() {
+  return(
+    <div class="avatar avatar--vertical">
+    <img
+      class="avatar__photo avatar__photo--xl margin-bottom--lg"
+      src="/img/headshot.jpeg"
+    />
+    {/* <div class="avatar__intro">
+      <div class="avatar__name">Jordan Walke</div>
+      <small class="avatar__subtitle">
+        Maker of things: ReactJS. Working on:
+        <a href="https://twitter.com/reasonml">@reasonml</a>. At: Facebook
+        Engineering.
+      </small>
+    </div> */}
+  </div>
   );
 }
 
