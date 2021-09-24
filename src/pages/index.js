@@ -23,7 +23,14 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg margin--sm"
             to="/sample-works">
-            Sample works
+            See sample works
+          </Link>
+        </div>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg margin--sm"
+            to="https://www.linkedin.com/in/nwilson512">
+            Find me on LinkedIn
           </Link>
           <HideEmail />
         </div>
