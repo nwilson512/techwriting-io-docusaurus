@@ -7,12 +7,14 @@ class RenderEducation extends Component {
     render() {
         return(
             // wraps all education
-            <div>
-                <h2>
-                    {education.education_section_name}
-                </h2>
+            <div class="row margin-top--lg">
+                <div class="col col--2">
+                    <h2>
+                        {education.education_section_name}
+                    </h2>
+                </div>
                 {/* wraps all education listings */}
-                <div>
+                <div class="col">
                     {
                         education.subsection.map((subsection) => {
                             return(

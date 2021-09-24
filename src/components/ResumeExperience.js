@@ -7,12 +7,14 @@ class RenderExperience extends Component {
     render() {
         return(
             // wraps entire experience section
-            <div>
-                <h2>
-                    {experience.experience_section_name}
-                </h2>
+            <div class="row">
+                <div class="col col--2">
+                    <h2>
+                        {experience.experience_section_name}
+                    </h2>
+                </div>
                 {/* wrap experience section minus heading */}
-                <div>
+                <div class="col">
                 {
                     experience.subsection.map((subsection) => {
                         return(

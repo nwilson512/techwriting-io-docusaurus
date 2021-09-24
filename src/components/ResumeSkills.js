@@ -7,12 +7,14 @@ class RenderSkills extends Component {
     render() {
         return(
             // wraps whole skills section
-            <div>
-                <h2>
-                    {skills.skills_section_name}
-                </h2>
+            <div class="row  margin-top--lg">
+                <div class="col col--2">
+                    <h2>
+                        {skills.skills_section_name}
+                    </h2>
+                </div>
                 {/* wraps all skills listings */}
-                <div>
+                <div class="col">
                     {
                         skills.subsection.map((subsection) => {
                             return(
