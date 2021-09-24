@@ -3,7 +3,7 @@ title: 'Rock Paper Scissors API'
 lang: JavaScript
 description: Allows humans to play Rock Paper Scissors against the computer.
 ---
-```
+```js
 // GENERAL CONFIGURATION
 
 // call dependencies
