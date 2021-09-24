@@ -9,7 +9,7 @@ class RenderExperience extends Component {
             // wraps entire experience section
             <div class="row">
                 <div class="col col--2">
-                    <h2>
+                    <h2 class="resumeH2">
                         {experience.experience_section_name}
                     </h2>
                 </div>

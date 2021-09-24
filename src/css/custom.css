@@ -39,6 +39,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.resumeH2 {
+  color: var(--ifm-color-primary);
+}
+
 /* 
 --maximum-yellow-red: #ffbc42ff;
 --metallic-seaweed: #087e8bff;

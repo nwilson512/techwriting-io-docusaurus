@@ -9,7 +9,7 @@ class RenderEducation extends Component {
             // wraps all education
             <div class="row margin-top--lg">
                 <div class="col col--2">
-                    <h2>
+                    <h2 class="resumeH2">
                         {education.education_section_name}
                     </h2>
                 </div>
