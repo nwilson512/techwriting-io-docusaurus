@@ -86,15 +86,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Pages',
+          //   items: [
+          //     {
+          //       label: 'Sample works',
+          //       to: '/docs/sample-works',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
