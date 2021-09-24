@@ -43,7 +43,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} welcomes you`}
+      title={`Techwriting.io`}
       description="Personal site for Nathaniel Wilson, an experienced software technical writer and team lead.">
       <HomepageHeader />
       <main>
