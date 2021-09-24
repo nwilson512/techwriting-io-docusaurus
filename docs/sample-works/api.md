@@ -4,48 +4,9 @@ layout: api
 toc: true
 
 type: Concept, Reference
-
-api_url: http://api.test:5656/api/v1
-
-api_calls:
-- data:
-    - description: The root endpoint, returns connection info
-      example: curl -X GET http://techwriting.io/rpsapi/v1/
-      method: GET
-      parameters: NONE
-  endpoint: /
-- data:
-    - description: Returns this documentation
-      example: curl -X GET http://techwriting.io/rpsapi/v1/docs
-      method: GET
-      parameters: NONE
-  endpoint: /docs
-- data:
-  - description: Fetch a list of all players stored in the database.
-    example: curl -X GET http://techwriting.io/rpsapi/v1/players
-    method: GET
-    parameters: NONE
-  - description: create a new player
-    example: curl -X POST -d "name=Steve" http://techwriting.io/rpsapi/v1/players
-    method: POST
-    parameters: name (string)
-  endpoint: /players
-- data:
-  - description: Fetch a specific player's name
-    example: curl -X GET http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
-    method: GET
-    parameters: NONE
-  - description: Update a specific player's name or play a new hand. Use only one
-      parameter at a time.
-    example: curl -X PUT -d "played=rock" http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
-    method: PUT
-    parameters: 'name (string), played (enumerated string: rock, paper, scissors)'
-  - description: Delete a specific player's name
-    example: curl -X DELETE http://techwriting.io/rpsapi/v1/players/5c5cc956608ab82cb789da6b
-    method: DELETE
-    parameters: NONE
-  endpoint: /players/PLAYERID
 ---
+
+import RpsapiReference from "../../src/components/RpsapiReference";
 
 ## The Rock Paper Scissors API
 
@@ -142,10 +103,10 @@ mongoose.connect('mongodb://XXXXXX:yyyYYYyy@zzzZZZZz.mlab.com:55555/api', { useN
 <...>
 ```
 
-{{# API reference is currently parked on the template #}}
-
 ### More information
 
 For more information, see the full Rock Paper Scissors API code in the [Samples](/docs/sample-works/rock-paper-scissors-api) section.
 
 ## API reference
+
+<RpsapiReference />
