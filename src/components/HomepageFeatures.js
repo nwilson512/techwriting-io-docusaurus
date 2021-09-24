@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_professor_8lrt.svg').default,
     description: (
       <>
-        Hiring -- Managing -- Sprint planning -- Style guides -- Content review
+        Hiring; Managing; Sprint planning; Style guides; Content review
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_Designer_by46.svg').default,
     description: (
       <>
-        Content planning/strategy -- DITA -- Copyediting -- Markup syntaxes -- Docs-as-code
+        Content planning/strategy; DITA; Copyediting; Markup syntaxes; Docs-as-code
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_programming_2svr.svg').default,
     description: (
       <>
-        Git, CI (travis) -- Javascript, Node.js, Nginx -- Kubernetes
+        Git, CI (travis); Javascript, Node.js, Nginx; Kubernetes
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_static_website_0107.svg').default,
     description: (
       <>
-        Static site generators -- Documentation automation -- React
+        Static site generators; Documentation automation; React
       </>
     ),
   },
