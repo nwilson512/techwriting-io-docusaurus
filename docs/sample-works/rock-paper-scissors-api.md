@@ -16,7 +16,8 @@ var Player = require('./app/models/player');
 const app = express()
 const port = 5656
 
-// tell express to parse the body of requests using bodyParser. We'll be sending API requests as json in the body using URL encoded forms.
+// Tell express to parse the body of requests using bodyParser. 
+// We'll be sending API requests as json in the body using URL encoded forms.
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -34,7 +35,8 @@ router.all(['/','/v1'], function(req, res) {
     res.json({ message: 'Welcome the the rock-paper-scissors API. Make an API call at a valid endpoint. Find documentation information at <url>' });
 });
 
-// documentation route. Contains documentation on each API endpoint for parsing and display on the documentation site
+// documentation route. 
+// Contains documentation on each API endpoint for parsing and display on the documentation site
 router.get('/v1/docs', function(req, res) {
     res.json(
       {
