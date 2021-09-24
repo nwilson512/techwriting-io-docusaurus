@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_static_website_0107.svg').default,
     description: (
       <>
-        Static site generators -- Documentation automation
+        Static site generators -- Documentation automation -- React
       </>
     ),
   },
