@@ -34,7 +34,9 @@ The most immediate way you can get started with rock paper scissors is to submit
 
 The next-easiest way to submit requests, and the way this document provides all examples, is to use cURL. The following cURL command performs the same `GET` request as the form above:
 
-    curl -X GET http://techwriting.io/rpsapi/v1/players
+```bash
+curl -X GET http://techwriting.io/rpsapi/v1/players
+```
 
 Using cURL, you can manually call all of the endpoints in the Rock Paper Scissors API and play the game. See the [Reference Section](#api-reference) for all of the available endpoints and example cURL commands for each.
 
@@ -57,7 +59,7 @@ The following sections describe some of the more noteworthy details of how the A
 
 The RPSAPI generates the computer's using a pseudorandom (in a generous sense of the term) algorithm based on the current time in seconds.
 
-```
+```js
 // use time for psuedorandom hand generation, take the modulus of 3 to select one of 3 hands
               var notRandom = time.getSeconds() % 3;
               <...>
@@ -67,7 +69,7 @@ The RPSAPI generates the computer's using a pseudorandom (in a generous sense of
 
 I wrote the API documentation into the server.js source code, and you can access it at its own endpoint. The following code snippet shows the router get function, the endpoint string, and response JSON:
 
-```
+```js
 router.get('/v1/docs', function(req, res) {
     res.json(
       {
@@ -89,7 +91,7 @@ I wrote an API documentation automation script, which automatically retrieves th
 
 This API features rudimentary versioning support through manually prepended strings prepared for the router. This allows me to develop more sophisticated versioning code at a later date while not impacting the end user experience.
 
-```
+```js
 router.get('/v1/docs' <...>
 ```
 
@@ -97,7 +99,7 @@ router.get('/v1/docs' <...>
 
 A Mongoose library handles database access. The database itself is hosted by the Mlab cloud storage provider. This reduces the complexity of administration, and allows me to query the same database from both development and production versions of my API.
 
-```
+```js
 // open a connection with mongoose DB at mLab. This is not a production solution.
 mongoose.connect('mongodb://XXXXXX:yyyYYYyy@zzzZZZZz.mlab.com:55555/api', { useNewUrlParser: true });
 <...>
