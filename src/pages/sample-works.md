@@ -62,6 +62,8 @@ This is where the sample works page will live. It's currently a markdown list, b
 
 * [API documentation automation script](/docs/sample-works/api-documentation-automation)
 * [Rock paper scissors API](/docs/sample-works/rock-paper-scissors-api)
+* View [React components](https://github.com/nwilson512/techwriting-io-docusaurus/tree/main/src/components) used in this website. 
+* View [Jekyll layouts](https://github.com/nwilson512/nwilson512.github.io/tree/main/_layouts) from the legacy version of this website.
 
 ### CS50 problem sets
 
