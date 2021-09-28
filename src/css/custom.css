@@ -41,6 +41,20 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .resumeH2 {
   color: var(--ifm-color-primary);
+  text-align: right;
+}
+
+.entry {
+  border-left: #e8e8e8;
+  border-left-style: solid;
+  padding-left: 1rem;
+  border-width: 2px;
+  margin-left: 2px;
+}
+
+.entry ul, ol {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* 
@@ -52,3 +66,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 --imperial-red: #F71735;
 --harvest-gold: #E19100;
 */
+
+/* I should refactor resumeH2 into a module.css file */
+@media only screen and (max-width: 996px) {
+  .resumeH2 {
+    text-align: unset;
+  }
+} 

@@ -14,7 +14,7 @@ class RenderEducation extends Component {
                     </h2>
                 </div>
                 {/* wraps all education listings */}
-                <div class="col">
+                <div class="col margin-top--xs">
                     {
                         education.subsection.map((subsection) => {
                             return(
@@ -24,7 +24,7 @@ class RenderEducation extends Component {
                                         {subsection.subsection_name}
                                         </h3>
                                     {/* wrap these for styling */}
-                                    <div>
+                                    <div class="entry">
                                         <h4>
                                             {subsection.degree_name}
                                         </h4>

@@ -9,6 +9,11 @@ export default function render() {
         <>
             <Layout>
                 <main class="container container--fluid margin-vert--lg">
+                    <div>
+                        <h1 class="text--center">
+                            Nathaniel Wilson
+                        </h1>
+                    </div>
                     <ResumeExperience />
                     <ResumeEducation />
                     <ResumeSkills />
