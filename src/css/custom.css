@@ -57,6 +57,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   padding-left: 0;
 }
 
+.skills-list {
+  max-width: 855px!important;
+}
+
 /* 
 --maximum-yellow-red: #ffbc42ff;
 --metallic-seaweed: #087e8bff;

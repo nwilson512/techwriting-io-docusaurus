@@ -14,7 +14,7 @@ class RenderSkills extends Component {
                     </h2>
                 </div>
                 {/* wraps all skills listings */}
-                <div class="col row padding-horiz--none margin-top--xs">
+                <div class="col row padding-horiz--none margin-top--xs skills-list">
                     {
                         skills.subsection.map((subsection) => {
                             return(

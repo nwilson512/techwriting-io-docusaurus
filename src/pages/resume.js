@@ -10,7 +10,7 @@ export default function render() {
             <Layout>
                 <main class="container container--fluid margin-vert--lg">
                     <div>
-                        <h1 class="text--center">
+                        <h1 class="text--center hero__title">
                             Nathaniel Wilson
                         </h1>
                     </div>
