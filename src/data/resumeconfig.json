@@ -3,7 +3,7 @@
        "experience_section_name": "Experience",
        "subsection": [
           {
-             "subsection_name": "Portworx, Inc. (Acquired by Pure Storage)",
+             "subsection_name": "Portworx (Acquired by Pure Storage)",
              "job_title": "Lead Technical Writer and Member of Technical Staff",
              "tenure": "July 2019 - Present",
              "focus_area": [
@@ -36,7 +36,7 @@
              ]
           },
           {
-             "subsection_name": "Celtra, Inc.",
+             "subsection_name": "Celtra",
              "job_title": "Technical Writer",
              "tenure": "July 2018 - February 2019",
              "focus_area": [
@@ -64,7 +64,7 @@
              ]
           },
           {
-             "subsection_name": "Red Hat, Inc.",
+             "subsection_name": "Red Hat",
              "job_title": "Technical Writer",
              "tenure": "January 2017 - July 2018",
              "focus_area": [
@@ -159,9 +159,8 @@
           {
              "subsection_name": "Operating Systems",
              "subsection_list": [
-                "Unix",
-                "Linux",
-                "Mac"
+               "Mac", 
+               "Linux"
              ]
           },
           {
@@ -189,9 +188,10 @@
           {
              "subsection_name": "Static Site Generators",
              "subsection_list": [
-                "Statamic",
-                "Hugo",
-                "Jekyll"
+               "Docusaurus",
+               "Jekyll",
+               "Statamic",
+               "Hugo"
              ]
           }
        ]
@@ -203,7 +203,12 @@
              "subsection_name": "University of North Texas",
              "degree_name": "BA Technical Writing",
              "graduation_date": 2013
-          }
+          },
+          {
+            "subsection_name": "Western Governors University",
+            "degree_name": "BS Computer Science",
+            "graduation_date": "Continuing Education, est. 2024"
+         }
        ]
     }
- }
+}
