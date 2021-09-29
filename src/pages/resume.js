@@ -9,10 +9,12 @@ export default function render() {
         <>
             <Layout>
                 <main class="container container--fluid margin-vert--lg">
-                    <div>
-                        <h1 class="text--center hero__title">
+                    <div class="row">
+                        <div class="col col--10 col--offset-2">
+                        <h1 class="resume-title">
                             Nathaniel Wilson
                         </h1>
+                    </div>
                     </div>
                     <ResumeExperience />
                     <ResumeEducation />

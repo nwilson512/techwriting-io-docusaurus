@@ -61,6 +61,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   max-width: 855px!important;
 }
 
+.resume-title {
+  font-size: 7vw;
+}
+
 /* 
 --maximum-yellow-red: #ffbc42ff;
 --metallic-seaweed: #087e8bff;
