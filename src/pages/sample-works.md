@@ -2,11 +2,13 @@
 title: Sample works
 ---
 
+import SampleWorkCard from '../components/SampleWorks';
+
 <!-- # Guided sample works
 
 ## PX-Backup
 
-I planned and wrote 100% of the PX-Backup documentation, which started with [version 1.0](1.0.backup.docs.portworx.com). For later releases, I interviewed and hired a new teachnical writer, who, under my guidance and following my style guide, carries the torch and continues to make contributions to PX-Backup documentation, which has now celebrated its [version 2.0](2.0.backup.docs.portworx.com) release at the time of this writing. 
+I planned and wrote 100% of the PX-Backup documentation, which started with [version 1.0](1.0.backup.docs.portworx.com). For later releases, I interviewed and hired a new technical writer, who, under my guidance and following my style guide, carries the torch and continues to make contributions to the documentation. PX-Backup has now celebrated its [version 2.0](2.0.backup.docs.portworx.com) release at the time of this writing. 
 
 ### What I did
 
@@ -39,16 +41,20 @@ I succeeded on all three fronts:
 * I had an idea for content automation, and I brought it to life -->
 
 
-# Sample works
+<!-- # Sample works -->
 
-This is where the sample works page will live. It's currently a markdown list, but I'd like to render values I point at it, see the jekyll template. 
+<!-- This page features examples of both my writing and programming abilities. -->
 
-## Writing samples
+## Writing samples 
 
-* [GCP sample](/docs/sample-works/create-a-statamic-web-server-on-google-cloud-platform/index)
-* [The Rock Paper Scissors API](/docs/sample-works/api)
-* [PX-Backup documentation](https://1.0.backup.docs.portworx.com)
-* [Snapshot comparison methods](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-snapshots/snapshot-methods/)
+<!-- As a lead technical writer, I've written a lot of developer documentation. In this section, you can find both live samples of production documentation and permanent samples that I wrote specifically for this site. -->
+
+<SampleWorkCard />
+
+### Other writing samples
+
+Want to see more? Here are some other work samples. Although they're not featured, I still think they're good:
+
 * [Vertica on AWS backup and restore guide](https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/Introduction.htm)
     * [K-Safe cluster configuration](https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/SingleNodeFailure.htm)
     * [Full backup](https://www.vertica.com/docs/8.1.x/HTML/index.htm#Authoring/BackupAndRestoreVerticaOnAWS/FullBackup.htm)
@@ -62,8 +68,8 @@ This is where the sample works page will live. It's currently a markdown list, b
 
 * [API documentation automation script](/docs/sample-works/api-documentation-automation)
 * [Rock paper scissors API](/docs/sample-works/rock-paper-scissors-api)
-* View [React components](https://github.com/nwilson512/techwriting-io-docusaurus/tree/main/src/components) used in this website. 
-* View [Jekyll layouts](https://github.com/nwilson512/nwilson512.github.io/tree/main/_layouts) from the legacy version of this website.
+* [React components](https://github.com/nwilson512/techwriting-io-docusaurus/tree/main/src/components) used in this website. 
+* [Jekyll layouts](https://github.com/nwilson512/nwilson512.github.io/tree/main/_layouts) from the legacy version of this website.
 
 ### CS50 problem sets
 
