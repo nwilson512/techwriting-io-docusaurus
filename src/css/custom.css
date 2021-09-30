@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #ffcd72;
   --ifm-color-primary-lightest: #ffdea2;
   --ifm-code-font-size: 95%;
+  --ifm-card-background-color: 
 }
 
 .docusaurus-highlight-code-line {
@@ -39,11 +40,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.resumeH2 {
-  color: var(--ifm-color-primary);
-  text-align: right;
-}
-
 .entry {
   border-left: #e8e8e8;
   border-left-style: solid;
@@ -52,7 +48,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   margin-left: 2px;
 }
 
-.entry ul, ol {
+.entry ul, .entry ol {
   list-style-type: none;
   padding-left: 0;
 }
@@ -63,6 +59,28 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .resume-title {
   font-size: 7vw;
+}
+
+.resume-experience-tenure {
+  font-size: smaller;
+}
+
+.resumeH2 {
+  color: var(--ifm-color-primary);
+  text-align: right;
+}
+
+html[data-theme='light'] {
+  --ifm-card-background-color: #fafafa;
+}
+
+html[data-theme='dark'] {
+  --ifm-card-background-color: #242424;
+}
+
+.hero-buttons-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* 

@@ -12,10 +12,10 @@ class RenderApiReference extends Component {
                     apiData.map((apiData) => {
                         return(
                             // wraps each endpoint
-                            <div>
-                                <strong>
+                            <div class="card margin-vert--lg padding--lg">
+                                <h3>
                                     {apiData.endpoint}
-                                </strong>
+                                </h3>
                                 {
                                     apiData.data.map((item) => {
                                         return(
@@ -23,17 +23,19 @@ class RenderApiReference extends Component {
                                             <div>
                                                 <ul>
                                                     <li>
-                                                        method: <code>{item.method}</code>
+                                                        <strong>method:</strong> <code>{item.method}</code>
                                                     </li>
                                                     <li>
-                                                        parameters: <code>{item.parameters}</code>
+                                                        <strong>parameters:</strong> <code>{item.parameters}</code>
                                                     </li>
                                                     <li>
-                                                        description: {item.description}
+                                                    <strong>description:</strong> {item.description}
                                                     </li>
                                                 </ul>
                                                 <div>
+                                                    <pre>
                                                     {item.example}
+                                                    </pre>
                                                 </div> 
                                             </div>
                                         );

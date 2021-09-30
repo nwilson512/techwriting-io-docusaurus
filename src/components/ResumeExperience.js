@@ -14,21 +14,21 @@ class RenderExperience extends Component {
                     </h2>
                 </div>
                 {/* wrap experience section minus heading */}
-                <div class="col margin-top--xs">
+                <div class="col">
                 {
                     experience.subsection.map((subsection) => {
                         return(
                             // wrap each company
                             <div>
-                                <h3>
+                                <h2>
                                     {subsection.subsection_name}
-                                </h3>
+                                </h2>
                                 {/* wrap each job */}
                                 <div class="entry">
-                                    <h4>
+                                    <h3>
                                         {subsection.job_title}
-                                    </h4>
-                                    <p>
+                                    </h3>
+                                    <p class="resume-experience-tenure">
                                         {subsection.tenure}
                                     </p>
                                     { 

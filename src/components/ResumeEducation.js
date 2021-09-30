@@ -14,20 +14,20 @@ class RenderEducation extends Component {
                     </h2>
                 </div>
                 {/* wraps all education listings */}
-                <div class="col margin-top--xs">
+                <div class="col">
                     {
                         education.subsection.map((subsection) => {
                             return(
                                 // wraps whole university listing
                                 <div>
-                                    <h3>
+                                    <h2>
                                         {subsection.subsection_name}
-                                        </h3>
+                                        </h2>
                                     {/* wrap these for styling */}
                                     <div class="entry">
-                                        <h4>
+                                        <h3>
                                             {subsection.degree_name}
-                                        </h4>
+                                        </h3>
                                         <p>
                                             {subsection.graduation_date}
                                         </p>

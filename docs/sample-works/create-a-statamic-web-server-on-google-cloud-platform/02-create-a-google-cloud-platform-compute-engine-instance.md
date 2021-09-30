@@ -36,5 +36,4 @@ When you create and manage a web server at this level, you are working in the in
     * **Boot disk**: standard persistent disk, 10GB, Debian
     * **Firewall**: Allow HTTP traffic, allow HTTPS traffic
 
-
-    <img class="imgOverrideTall" src="/img/gcpInstanceCreateDetails.png"/>
+  ![](/img/gcpInstanceCreateDetails.png)

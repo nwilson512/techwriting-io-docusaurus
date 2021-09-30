@@ -15,8 +15,8 @@ function HomepageHeader() {
         {/* <Avatar /> */}
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons} class="container">
-          <div>
+        <div className={styles.buttons} class="container hero-buttons-container">
+          <div class="hero-buttons">
           <Link
             className="button button--secondary button--lg margin--sm"
             to="/resume">
@@ -28,7 +28,7 @@ function HomepageHeader() {
             See sample works
           </Link>
           </div>
-          <div>
+          <div class="hero-buttons">
           <Link
             className="button button--secondary button--lg margin--sm"
             to="https://www.linkedin.com/in/nwilson512">

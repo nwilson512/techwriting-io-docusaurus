@@ -10,7 +10,7 @@ export default function render() {
             <Layout>
                 <main class="container container--fluid margin-vert--lg">
                     <div class="row">
-                        <div class="col col--10 col--offset-2">
+                        <div class="col col--10 col--offset-2 margin-bottom--md">
                         <h1 class="resume-title">
                             Nathaniel Wilson
                         </h1>
