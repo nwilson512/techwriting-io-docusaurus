@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import SampleWorkData from "../data/sampleworksconfig.json"
+// import SampleWorkData from "../data/sampleworksconfig.json"
 
 // build a series of functions that display and make the sample works page interesting and interactive
 
