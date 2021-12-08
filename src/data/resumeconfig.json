@@ -4,7 +4,7 @@
        "subsection": [
           {
              "subsection_name": "Portworx (Acquired by Pure Storage)",
-             "job_title": "Lead Technical Writer and Member of Technical Staff",
+             "job_title": "Lead Technical Writer",
              "tenure": "July 2019 - Present",
              "focus_area": [
                 {
@@ -107,7 +107,7 @@
                    "focus_area_list": [
                       "Created and maintained documentation for HPE Software cloud products",
                       "Provided feedback and edits for other writers",
-                      "Modernized documentation using structured authoring standards"
+                      "Modernized documentation using topic-based authoring standards"
                    ]
                 },
                 {
@@ -143,8 +143,8 @@
              "subsection_name": "Web Languages and Utilities",
              "subsection_list": [
                 "HTML/CSS",
-                "Sass",
-                "Javascript"
+                "Javascript",
+                "React"
              ]
           },
           {
