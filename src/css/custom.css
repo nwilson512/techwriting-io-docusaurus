@@ -99,3 +99,80 @@ html[data-theme='dark'] {
     text-align: unset;
   }
 } 
+
+
+/* PDF print */
+
+/* @media print {
+  .page-break { display: block; page-break-before: always; }
+} */
+
+@media print  
+{
+  @page {
+    size: letter;
+    margin: .75in .75in .75in .75in;
+  }
+    div{
+        /* page-break-inside: avoid; */
+        font-size: 9pt;
+    }
+    h2, div.h2 {
+      font-size: 12pt;
+    }
+    h3 {
+      font-size: 9pt;
+    }
+    h4 {
+      font-size: 9pt;
+    }
+    div.print-wrapper {
+      /* margin: 1in; */
+    }
+    /* div.print-wrapper::before {
+      content: "foo";
+    } */
+    .resumeH2 {
+      /* text-align: unset; */
+    }
+    .resume-title {
+      font-size: 56pt;
+    }
+    .col.col--2 {
+      --ifm-col-width: !important calc(2 / 12 * 100%);
+    }
+
+    .print-content-col {
+      page-break-inside: avoid;
+      max-width: 5in !important;
+    }
+    .print-title-col {
+      max-width: 1.5in !important;
+    }
+    .protect-break {
+      /* page-break-inside: avoid; */
+    }
+    .print-skill {
+      max-width: 2.5in !important;
+    }
+    .entry {
+      /* display:flex; */
+    }
+    .resume-experience-tenure {
+      /* display: flex; */
+    }
+    p {
+      /* display: inline; */
+    }
+    .print-university {
+      max-width: 2.5in !important;
+    }
+}
+
+@media only print and (max-width: 996px) {
+  /* .row .col.col {
+    --ifm-col-width: unset !important;
+    flex: 0 0 var(--ifm-col-width) !important;
+    margin-left: unset !important;
+  } */
+}
