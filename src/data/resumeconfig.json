@@ -10,27 +10,28 @@
                 {
                    "focus_area_name": "Leadership",
                    "focus_area_list": [
-                      "Manage direct reports, delegate tasks, and oversee progress",
-                      "Create and enforce a style guide for all writers and contributors",
-                      "Copyedit and review all documentation changes before publishing",
-                      "Triage new issues and organize work into sprints",
-                      "Define job descriptions and hire full-time writers across multiple geos"
+                     "Use Jira and GitHub to define and triage work; manage direct reports, delegate tasks, and monitor progress",
+                     "Create a style guide and establish standards for documentation contributions using topic-based authoring",
+                     "Teach writers how to contribute using a docs-as-code workflow; use an example repository and custom teaching materials",
+                     "Define job descriptions, work with recruiting staff to interview and hire full-time writers in both the US and India"
                    ]
                 },
                 {
                    "focus_area_name": "Product Documentation",
                    "focus_area_list": [
-                      "Write and maintain all documentation for Portworx products",
-                      "Write and publish release notes"
+                     "Open pull requests as part of authoring and maintaining documentation for all Portworx products",
+                     "Write and publish release notes",
+                     "Expanded Portworx documentation from a single product to multiple individual projects spanning new product lines; launched PX-Backup documentation"
                    ]
                 },
                 {
                    "focus_area_name": "Infrastructure",
                    "focus_area_list": [
-                      "Implemented federated search, allowing users to search and see results across multiple products",
-                      "Perform development and administrative tasks for docs.portworx.com",
-                      "Maintain documentation toolchain and versioning",
-                      "Document internal publication procedures"
+                     "Manage GKE cluster ingress and TLS certs",
+                     "Upgraded static site generator version and refactored legacy code to address regressions",
+                     "Enabled support for AsciiDoc alongside Markdown",
+                     "Expanded documentation architecture to support new independently versioned products through containerization",
+                     "Implemented federated search, allowing users to search and instantly see results across multiple products"
                    ]
                 }
              ]
@@ -60,8 +61,7 @@
                    "focus_area_list": [
                       "Created and maintained documentation for the Red Hat 3scale API Management Platform",
                       "Established and maintained documentation infrastructure and repositories",
-                      "Implemented documentation initiatives: modularity, open sourcing",
-                      "Created strategic plans for documentation structures"
+                      "Implemented documentation initiatives: modularity, open sourcing"
                    ]
                 },
                 {
