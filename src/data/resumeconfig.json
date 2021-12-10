@@ -41,24 +41,11 @@
              "tenure": "July 2018 - February 2019",
              "focus_area": [
                 {
-                   "focus_area_name": "Product Documentation",
+                   "focus_area_name": "",
                    "focus_area_list": [
                       "Created and maintained support documentation for the Celtra Management Platform",
-                      "Established a documentation team strategy modeled on Agile development approaches",
-                      "Created visually compelling diagrams and illustrations"
-                   ]
-                },
-                {
-                   "focus_area_name": "Infrastructure",
-                   "focus_area_list": [
                       "Performed front end development and administrative tasks for support.celtra.com",
                       "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages"
-                   ]
-                },
-                {
-                   "focus_area_name": "Video",
-                   "focus_area_list": [
-                      "Recorded and produced supplementary support video content"
                    ]
                 }
              ]
@@ -117,16 +104,22 @@
                       "Administered WordPress pages for documentation and product releases on my.vertica.com",
                       "Assisted in maintenance of internal versioning and documentation systems"
                    ]
-                },
-                {
-                   "focus_area_name": "Video",
-                   "focus_area_list": [
-                      "Recorded and produced product videos and blogs for the developer community",
-                      "Filmed internal meetings and presentations"
-                   ]
                 }
              ]
-          }
+          },
+          {
+            "subsection_name": "Various Employers",
+            "job_title": "Technical Writer",
+            "tenure": "August 2013 - August 2014",
+            "focus_area": [
+               {
+                  "focus_area_name": "",
+                  "focus_area_list": [
+                     ""
+                  ]
+               }
+            ]
+         }
        ]
     },
     "skills_section": {
@@ -150,8 +143,8 @@
           {
              "subsection_name": "Programming and Query Languages",
              "subsection_list": [
-                "Python",
                 "Javascript",
+                "Python",
                 "C",
                 "SQL"
              ]
