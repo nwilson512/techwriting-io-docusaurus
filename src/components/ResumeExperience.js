@@ -19,7 +19,7 @@ class RenderExperience extends Component {
                     experience.subsection.map((subsection) => {
                         return(
                             // wrap each company
-                            <div>
+                            <div class="protect-break">
                                 <h2>
                                     {subsection.subsection_name}
                                 </h2>

@@ -19,21 +19,49 @@ I think I can also use the @media directive in css to define custom styling for 
 I should write this into a feature spec.
 */ 
 
+// Get the current date and append it to the resume name automatically
+var today = new Date();
+
+const monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+
+var date = monthArray[today.getMonth()]+' '+today.getFullYear();
+
+// Detect chrome, I only plan to support printing on Chrome
+
+var sBrowser, sUsrAg = navigator.userAgent;
+var showButton = false;
+
+if (sUsrAg.indexOf("Chrome") > -1) {
+  showButton = true;
+}
+
+// conditionally returns the content + print button if user is running Chrome, otherwise it just returns the content
 class PrintPdf extends React.PureComponent {
   render() {
+    if (showButton){
     return (
       <div>
+        <div class="print-button-wrapper">
         <ReactToPrint
           trigger={() => {
             // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
             // to the root node of the returned component as it will be overwritten.
-            return <a href="#">Print this out!</a>;
+            return <button
+            className="button button--secondary button--lg margin--sm"
+            >
+            Print this resume
+            </button>;
           }}
           content={() => this.componentRef}
+          documentTitle={"Nathaniel Wilson " + date}
         />
+        </div>
         <ComponentToPrint ref={el => (this.componentRef = el)} />
       </div>
     );
+        }
+    return (<ComponentToPrint ref={el => (this.componentRef = el)} />)
   }
 }
 
