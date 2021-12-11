@@ -7,15 +7,12 @@ class PrintPdf extends React.PureComponent {
   // Conditionally returns the content + print button if user is running Chrome, otherwise it just returns the content
   CheckBrowser() {
     var sUsrAg = navigator.userAgent;
-    var showButton = false;
   
     if (sUsrAg.indexOf("Chrome") > -1) {
-      showButton = true;
+      return(1);
     }
     return(
-      <BrowserOnly>
-      showButton
-      </BrowserOnly>
+      0
     );
   }
 
@@ -33,7 +30,6 @@ class PrintPdf extends React.PureComponent {
   }
 
   render() {
-    
     if (this.CheckBrowser()){
     return (
       <div>
