@@ -32,13 +32,12 @@ var date = monthArray[today.getMonth()]+' '+today.getFullYear();
 var sBrowser, sUsrAg = navigator.userAgent;
 var showButton = false;
 
-if (sUsrAg.indexOf("Chrome") > -1) {
-  showButton = true;
-}
-
 // conditionally returns the content + print button if user is running Chrome, otherwise it just returns the content
 class PrintPdf extends React.PureComponent {
   render() {
+    if (sUsrAg.indexOf("Chrome") > -1) {
+      showButton = true;
+    }
     if (showButton){
     return (
       <div>
