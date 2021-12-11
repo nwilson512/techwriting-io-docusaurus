@@ -13,7 +13,9 @@ class PrintPdf extends React.PureComponent {
       showButton = true;
     }
     return(
+      <BrowserOnly>
       showButton
+      </BrowserOnly>
     );
   }
 
