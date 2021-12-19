@@ -10,27 +10,40 @@
                 {
                    "focus_area_name": "Leadership",
                    "focus_area_list": [
-                     "Use Jira and GitHub to define and triage work; manage direct reports, delegate tasks, and monitor progress",
+                     "Manage direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress",
                      "Create a style guide and establish standards for documentation contributions using topic-based authoring",
-                     "Teach writers how to contribute using a docs-as-code workflow; use an example repository and custom teaching materials",
+                     "Use an example repository and custom teaching materials to teach writers how to contribute using a docs-as-code workflow",
                      "Define job descriptions, work with recruiting staff to advertise, interview, and hire full-time writers in both the US and India"
                    ]
                 },
                 {
                    "focus_area_name": "Product Documentation",
                    "focus_area_list": [
-                     "Authored minimum viable documentation and release notes for 88 (and counting) Portworx Enterprise releases and hotfixes",
-                     "Expanded Portworx documentation from a single product to multiple individual projects spanning new product lines; launched PX-Backup 1.0 documentation and handed-off further releases to direct report"
+                     "Authored documentation and release notes for 88 (and counting) Portworx Enterprise Kubernetes storage platform releases and hotfixes",
+                     "Expanded Portworx documentation from a single product to multiple spanning new product lines; launched PX-Backup 1.0 documentation and handed-off further releases to direct report"
                    ]
                 },
                 {
                    "focus_area_name": "Infrastructure",
                    "focus_area_list": [
-                     "Manage GKE cluster ingress and TLS certs",
-                     "Upgraded static site generator version and refactored legacy code to address regressions",
-                     "Enabled support for AsciiDoc alongside Markdown within static site generator",
+                     "Upgraded static site generator version and refactored legacy code to address regressions in order to enable support for AsciiDoc alongside Markdown",
                      "Expanded documentation architecture to support new independently versioned products through containerization",
-                     "Implemented federated search, allowing users to search and instantly see results across multiple products"
+                     "Refactored Algolia InstantSearch and implemented federated search, allowing users to search and instantly see results across multiple products"
+                   ]
+                }
+             ]
+          },
+          {
+             "subsection_name": "Celtra",
+             "job_title": "Technical Writer",
+             "tenure": "July 2018 - February 2019",
+             "focus_area": [
+                {
+                   "focus_area_name": "",
+                   "focus_area_list": [
+                      "Created and maintained support documentation for the Celtra Management Platform",
+                      "Performed front end development and administrative tasks for support.celtra.com",
+                      "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages"
                    ]
                 }
              ]
@@ -44,9 +57,8 @@
                    "focus_area_name": "",
                    "focus_area_list": [
                       "Created and maintained documentation as sole writer for the Red Hat 3scale API Management Platform",
-                      "Migrated and documentation from legacy formats to AsciiDoc and placed into GitLab repositories",
-                      "Implemented documentation initiatives: modularity, open sourcing",
-                      "Liaised with product stakeholders in QE, support, engineering, product management and tracked project status, providing regular readiness reports"
+                      "Migrated documentation from legacy formats to AsciiDoc and placed into GitLab repositories",
+                      "Implemented documentation initiatives: modularity, open sourcing"
                    ]
                 }
              ]
@@ -80,27 +92,36 @@
              ]
           },
           {
-             "subsection_name": "Web Languages and Utilities",
+            "subsection_name": "Operating Systems",
+            "subsection_list": [
+              "MacOS", 
+              "Linux"
+            ]
+         },
+         {
+             "subsection_name": "Static Site Generators",
+             "subsection_list": [
+               "Docusaurus",
+               "Hugo",
+               "Jekyll",
+               "Statamic"
+             ]
+          },
+          {
+            "subsection_name": "Programming & Query Languages",
+            "subsection_list": [
+               "Javascript",
+               "Python",
+               "C",
+               "SQL"
+            ]
+         },
+          {
+             "subsection_name": "Web Languages & Utilities",
              "subsection_list": [
                 "HTML/CSS",
                 "Javascript",
                 "React"
-             ]
-          },
-          {
-             "subsection_name": "Programming and Query Languages",
-             "subsection_list": [
-                "Javascript",
-                "Python",
-                "C",
-                "SQL"
-             ]
-          },
-          {
-             "subsection_name": "Operating Systems",
-             "subsection_list": [
-               "MacOS", 
-               "Linux"
              ]
           },
           {
@@ -124,15 +145,6 @@
              "subsection_list": [
                 "Git, GitHub"
              ]
-          },
-          {
-             "subsection_name": "Static Site Generators",
-             "subsection_list": [
-               "Docusaurus",
-               "Hugo",
-               "Jekyll",
-               "Statamic"
-             ]
           }
        ]
     },
@@ -140,15 +152,10 @@
        "education_section_name": "Education",
        "subsection": [
           {
-             "subsection_name": "University of North Texas",
-             "degree_name": "BA Technical Writing",
-             "graduation_date": 2013
-          },
-          {
-            "subsection_name": "WGU",
-            "degree_name": "BS Computer Science",
-            "graduation_date": "Continuing Education, est. 2024"
-         }
+             "subsection_name": "University of North Texas, BA Technical Writing — 2013",
+             "degree_name": "",
+             "graduation_date": "" 
+          }
        ]
     }
 }

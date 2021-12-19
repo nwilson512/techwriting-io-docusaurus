@@ -29,7 +29,7 @@ class RenderSkills extends Component {
                                             { 
                                                 subsection.subsection_list.map((list) => {
                                                     return(
-                                                        <li>
+                                                        <li class="skills">
                                                             {list}
                                                         </li>
                                                     );    

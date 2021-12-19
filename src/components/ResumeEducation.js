@@ -19,7 +19,7 @@ class RenderEducation extends Component {
                         education.subsection.map((subsection) => {
                             return(
                                 // wraps whole university listing
-                                <div class="col col--6 print-university">
+                                <div class="col print-university">
                                     <h2>
                                         {subsection.subsection_name}
                                         </h2>
@@ -28,7 +28,7 @@ class RenderEducation extends Component {
                                         <h3>
                                             {subsection.degree_name}
                                         </h3>
-                                        <p>
+                                        <p class="resume-experience-tenure">
                                             {subsection.graduation_date}
                                         </p>
                                     </div>
