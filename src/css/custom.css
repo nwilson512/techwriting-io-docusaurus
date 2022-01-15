@@ -82,6 +82,48 @@ html[data-theme='dark'] {
   display: flex;
   flex-direction: column;
 }
+.print-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.print-button {
+}
+
+.print-email {
+  text-align: right;
+  font-size: 10px;
+  font-weight: 600;
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+.print-email a:link, a:visited, a:focus, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.entry ul li {
+  /* margin-bottom: 10px; */
+}
+
+.entry h3 {
+  margin-bottom: .4rem;
+}
+
+.entry p {
+  margin-bottom: .7rem;
+}
+
+.entry div h4 {
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+
+.entry div ul li {
+max-width: 900px;
+}
+
+.
 
 /* 
 --maximum-yellow-red: #ffbc42ff;
@@ -99,3 +141,104 @@ html[data-theme='dark'] {
     text-align: unset;
   }
 } 
+
+
+/* PDF print */
+
+/* @media print {
+  .page-break { display: block; page-break-before: always; }
+} */
+
+@media print  
+{
+  @page {
+    size: 8.5in 11in;
+    margin: .5in .25in .5in .25in;
+  }
+    div{
+        /* page-break-inside: avoid; */
+        font-size: 8pt;
+    }
+    h2, div.h2 {
+      font-size: 10pt;
+    }
+    h3 {
+      font-size: 9pt;
+    }
+    h4 {
+      font-size: 8pt;
+    }
+    .resume-experience-tenure {
+      font-size: 6pt !important;
+    }
+    div.print-wrapper {
+      /* margin: 1in; */
+    }
+    /* div.print-wrapper::before {
+      content: "foo";
+    } */
+    .resumeH2 {
+      /* text-align: unset; */
+    }
+    .resume-title {
+      font-size: 50pt;
+      padding-left: 1.5in !important;
+      margin-bottom: 0;
+    }
+    .col.col--2 {
+      --ifm-col-width: !important calc(2 / 12 * 100%);
+    }
+
+    .print-content-col {
+      page-break-inside: avoid;
+      max-width: 6.25in !important;
+    }
+    .print-title-col {
+      max-width: 1.5in !important;
+    }
+    .protect-break {
+      page-break-inside: avoid;
+    }
+    .print-skill {
+      max-width: 2.5in !important;
+    }
+    .entry {
+      /* display:flex; */
+    }
+    .resume-experience-tenure {
+      /* display: flex; */
+    }
+    p {
+      /* display: inline; */
+    }
+    .print-university {
+      /* max-width: 2.5in !important; */
+    }
+    .print-description {
+      font-size: 8pt;
+      font-weight: 400;
+    }
+    .print-email {
+      font-size: 4.5pt;
+    }
+    /* controls the spacing between job duties/achievements */
+    .entry ul li {
+      margin-bottom: 1mm;
+    }
+    .skills {
+      /* font-size: 6pt !important; */
+    }
+
+    .entry div ul li, .entry ul li, .entry p {
+      font-size: 8pt;
+      font-weight: 400;
+    }
+}
+
+@media only print and (max-width: 996px) {
+  /* .row .col.col {
+    --ifm-col-width: unset !important;
+    flex: 0 0 var(--ifm-col-width) !important;
+    margin-left: unset !important;
+  } */
+}

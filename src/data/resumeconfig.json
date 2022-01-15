@@ -10,27 +10,25 @@
                 {
                    "focus_area_name": "Leadership",
                    "focus_area_list": [
-                      "Manage direct reports, delegate tasks, and oversee progress",
-                      "Create and enforce a style guide for all writers and contributors",
-                      "Copyedit and review all documentation changes before publishing",
-                      "Triage new issues and organize work into sprints",
-                      "Define job descriptions and hire full-time writers across multiple geos"
+                     "Manage direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress",
+                     "Create a style guide and establish standards for documentation contributions using topic-based authoring",
+                     "Use an example repository and custom teaching materials to teach writers how to contribute using a docs-as-code workflow",
+                     "Define job descriptions, work with recruiting staff to advertise, interview, and hire full-time writers in both the US and India"
                    ]
                 },
                 {
                    "focus_area_name": "Product Documentation",
                    "focus_area_list": [
-                      "Write and maintain all documentation for Portworx products",
-                      "Write and publish release notes"
+                     "Authored documentation and release notes for 88 (and counting) Portworx Enterprise Kubernetes storage platform releases and hotfixes spanning a $32M series C through a $370M exit",
+                     "Expanded Portworx documentation from a single product to multiple spanning new product lines; launched PX-Backup 1.0 documentation and handed-off further releases to direct report"
                    ]
                 },
                 {
                    "focus_area_name": "Infrastructure",
                    "focus_area_list": [
-                      "Implemented federated search, allowing users to search and see results across multiple products",
-                      "Perform development and administrative tasks for docs.portworx.com",
-                      "Maintain documentation toolchain and versioning",
-                      "Document internal publication procedures"
+                     "Upgraded static site generator version and refactored legacy code to address regressions in order to enable support for AsciiDoc alongside Markdown",
+                     "Expanded documentation architecture to support new independently versioned products through containerization",
+                     "Refactored Algolia InstantSearch and implemented federated search, allowing users to search and instantly see results across multiple products"
                    ]
                 }
              ]
@@ -41,24 +39,11 @@
              "tenure": "July 2018 - February 2019",
              "focus_area": [
                 {
-                   "focus_area_name": "Product Documentation",
+                   "focus_area_name": "",
                    "focus_area_list": [
                       "Created and maintained support documentation for the Celtra Management Platform",
-                      "Established a documentation team strategy modeled on Agile development approaches",
-                      "Created visually compelling diagrams and illustrations"
-                   ]
-                },
-                {
-                   "focus_area_name": "Infrastructure",
-                   "focus_area_list": [
                       "Performed front end development and administrative tasks for support.celtra.com",
-                      "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages"
-                   ]
-                },
-                {
-                   "focus_area_name": "Video",
-                   "focus_area_list": [
-                      "Recorded and produced supplementary support video content"
+                      "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages using Javascript"
                    ]
                 }
              ]
@@ -69,21 +54,11 @@
              "tenure": "January 2017 - July 2018",
              "focus_area": [
                 {
-                   "focus_area_name": "Product Documentation",
+                   "focus_area_name": "",
                    "focus_area_list": [
-                      "Created and maintained documentation for the Red Hat 3scale API Management Platform",
-                      "Established and maintained documentation infrastructure and repositories",
-                      "Implemented documentation initiatives: modularity, open sourcing",
-                      "Created strategic plans for documentation structures"
-                   ]
-                },
-                {
-                   "focus_area_name": "Documentation Project Management",
-                   "focus_area_list": [
-                      "Oversaw operation of product portal pages",
-                      "Tracked project status and provided regular readiness reports",
-                      "Liaised with product stakeholders in QE, support, engineering, product management",
-                      "Managed documentation work queue and triage bugs"
+                      "Created and maintained documentation as sole writer for the Red Hat 3scale API Management Platform",
+                      "Migrated documentation from legacy formats to AsciiDoc and placed into GitLab repositories",
+                      "Implemented documentation initiatives: modularity, open sourcing"
                    ]
                 }
              ]
@@ -94,35 +69,12 @@
              "tenure": "August 2014 - January 2017",
              "focus_area": [
                 {
-                   "focus_area_name": "Leadership",
+                   "focus_area_name": "",
                    "focus_area_list": [
-                      "Established a release publications team",
-                      "Educated and advised team members on release procedures",
-                      "Delegated team tasks for product releases on my.vertica.com",
-                      "Oversaw publication operations"
-                   ]
-                },
-                {
-                   "focus_area_name": "Technical Writing",
-                   "focus_area_list": [
-                      "Created and maintained documentation for HPE Software cloud products",
-                      "Provided feedback and edits for other writers",
-                      "Modernized documentation using topic-based authoring standards"
-                   ]
-                },
-                {
-                   "focus_area_name": "Infrastructure",
-                   "focus_area_list": [
-                      "Implemented and reported on analytics for the documentation and community",
-                      "Administered WordPress pages for documentation and product releases on my.vertica.com",
-                      "Assisted in maintenance of internal versioning and documentation systems"
-                   ]
-                },
-                {
-                   "focus_area_name": "Video",
-                   "focus_area_list": [
-                      "Recorded and produced product videos and blogs for the developer community",
-                      "Filmed internal meetings and presentations"
+                      "Established a release publications team, designed a release process, and instructed team members on release procedures; during releases, delegated team tasks for product releases on my.vertica.com and oversaw publication operations",
+                      "Created and maintained documentation for HPE Software cloud products, including backup/restore, connector, and configuration guides",
+                      "Modernized documentation using topic-based authoring standards",
+                      "Implemented and reported on analytics for the documentation and community using Googe Analytics"
                    ]
                 }
              ]
@@ -140,27 +92,36 @@
              ]
           },
           {
-             "subsection_name": "Web Languages and Utilities",
+            "subsection_name": "Operating Systems",
+            "subsection_list": [
+              "MacOS", 
+              "Linux"
+            ]
+         },
+         {
+             "subsection_name": "Static Site Generators",
+             "subsection_list": [
+               "Docusaurus",
+               "Hugo",
+               "Jekyll",
+               "Statamic"
+             ]
+          },
+          {
+            "subsection_name": "Programming & Query Languages",
+            "subsection_list": [
+               "Javascript",
+               "Python",
+               "C",
+               "SQL"
+            ]
+         },
+          {
+             "subsection_name": "Web Languages & Utilities",
              "subsection_list": [
                 "HTML/CSS",
                 "Javascript",
                 "React"
-             ]
-          },
-          {
-             "subsection_name": "Programming and Query Languages",
-             "subsection_list": [
-                "Python",
-                "Javascript",
-                "C",
-                "SQL"
-             ]
-          },
-          {
-             "subsection_name": "Operating Systems",
-             "subsection_list": [
-               "Mac", 
-               "Linux"
              ]
           },
           {
@@ -184,15 +145,6 @@
              "subsection_list": [
                 "Git, GitHub"
              ]
-          },
-          {
-             "subsection_name": "Static Site Generators",
-             "subsection_list": [
-               "Docusaurus",
-               "Jekyll",
-               "Statamic",
-               "Hugo"
-             ]
           }
        ]
     },
@@ -200,15 +152,10 @@
        "education_section_name": "Education",
        "subsection": [
           {
-             "subsection_name": "University of North Texas",
-             "degree_name": "BA Technical Writing",
-             "graduation_date": 2013
-          },
-          {
-            "subsection_name": "Western Governors University",
-            "degree_name": "BS Computer Science",
-            "graduation_date": "Continuing Education, est. 2024"
-         }
+             "subsection_name": "University of North Texas, BA Technical Writing — 2013",
+             "degree_name": "",
+             "graduation_date": "" 
+          }
        ]
     }
 }

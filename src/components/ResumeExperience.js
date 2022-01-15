@@ -8,18 +8,18 @@ class RenderExperience extends Component {
         return(
             // wraps entire experience section
             <div class="row">
-                <div class="col col--2">
+                <div class="col col--2 print-title-col">
                     <h2 class="resumeH2">
                         {experience.experience_section_name}
                     </h2>
                 </div>
                 {/* wrap experience section minus heading */}
-                <div class="col">
+                <div class="col print-content-col">
                 {
                     experience.subsection.map((subsection) => {
                         return(
                             // wrap each company
-                            <div>
+                            <div class="protect-break">
                                 <h2>
                                     {subsection.subsection_name}
                                 </h2>
