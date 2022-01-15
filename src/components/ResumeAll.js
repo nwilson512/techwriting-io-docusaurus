@@ -19,6 +19,8 @@ class ResumeAll extends Component {
         <div class="row">
           <div class="col col--2 print-title-col">
             <ul>
+          <li class="print-email"><a href="https://techwriting.io">https://techwriting.io</a></li>
+          <li class="print-email"><a href="https://github.com/nwilson512">github.com/nwilson512</a></li>
           </ul>
           </div>
           <div class="col row padding-horiz--none skills-list print-content-col">
