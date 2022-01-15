@@ -216,7 +216,7 @@ max-width: 900px;
     }
     .print-description {
       font-size: 8pt;
-      font-weight: 300;
+      font-weight: 400;
     }
     .print-email {
       font-size: 4.5pt;
@@ -226,12 +226,12 @@ max-width: 900px;
       margin-bottom: 1mm;
     }
     .skills {
-      font-size: 6pt !important;
+      /* font-size: 6pt !important; */
     }
 
     .entry div ul li, .entry ul li, .entry p {
       font-size: 8pt;
-      font-weight: 300;
+      font-weight: 400;
     }
 }
 

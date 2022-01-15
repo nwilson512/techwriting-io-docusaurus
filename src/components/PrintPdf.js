@@ -3,18 +3,6 @@ import ReactToPrint from 'react-to-print';
 import ComponentToPrint from './ResumeAll';
 
 class PrintPdf extends React.PureComponent {
-  
-  // Conditionally returns the content + print button if user is running Chrome, otherwise it just returns the content
-  CheckBrowser() {
-    var sUsrAg = navigator.userAgent;
-  
-    if (sUsrAg.indexOf("Chrome") > -1) {
-      return(1);
-    }
-    return(
-      0
-    );
-  }
 
   // Gets the current date and append it to the resume name automatically
   GetDate() {
@@ -30,7 +18,6 @@ class PrintPdf extends React.PureComponent {
   }
 
   render() {
-    if (this.CheckBrowser()){
     return (
       <div>
         <div class="print-button-wrapper">
@@ -51,8 +38,6 @@ class PrintPdf extends React.PureComponent {
         <ComponentToPrint ref={el => (this.componentRef = el)} />
       </div>
     );
-        }
-    return (<ComponentToPrint ref={el => (this.componentRef = el)} />)
   }
 }
 
