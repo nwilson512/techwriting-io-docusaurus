@@ -22,7 +22,6 @@ class ResumeAll extends Component {
           <li class="print-email"><a href="mailto:nathan@techwriting.io">nathan@techwriting.io</a></li>
           <li class="print-email"><a href="https://techwriting.io">https://techwriting.io</a></li>
           <li class="print-email"><a href="https://github.com/nwilson512">github.com/nwilson512</a></li>
-          <li class="print-email">512-638-6005</li>
           </ul>
           </div>
           <div class="col row padding-horiz--none skills-list print-content-col">
