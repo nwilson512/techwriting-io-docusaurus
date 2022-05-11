@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <Layout
       title={`Techwriting.io`}
-      description="Personal site for Nathaniel Wilson, an experienced software technical writer and team lead.">
+      description="Personal site for Nathaniel Wilson, an experienced software technical writer and manager.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

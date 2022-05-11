@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Nathaniel Wilson',
-  tagline: 'Lead Tech Writer & Front End Developer',
+  tagline: 'Technical Writing Manager & Front End Developer',
   url: 'https://techwriting-io-docusaurus.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
