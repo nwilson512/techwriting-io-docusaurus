@@ -16,27 +16,9 @@
              ],
              "focus_area": [
                 {
-                   "focus_area_name": "Leadership",
+                   "focus_area_name": "",
                    "focus_area_list": [
-                     "Manage direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress",
-                     "Create a style guide and establish standards for documentation contributions using topic-based authoring",
-                     "Teach writers how to contribute using a docs-as-code workflow by using an example repository and custom teaching materials",
-                     "Define job descriptions, work with recruiting staff to advertise, interview, and hire full-time writers in both the US and India"
-                   ]
-                },
-                {
-                   "focus_area_name": "Product Documentation",
-                   "focus_area_list": [
-                     "Authored documentation and release notes for 88 (and counting) Portworx Enterprise Kubernetes storage platform releases and hotfixes spanning a $27M series C through a $370M exit",
-                     "Expanded Portworx documentation from a single product to multiple spanning new product lines; launched PX-Backup 1.0 documentation and handed-off further releases to direct report"
-                   ]
-                },
-                {
-                   "focus_area_name": "Infrastructure",
-                   "focus_area_list": [
-                     "Enabled support for AsciiDoc alongside Markdown by upgrading static site generator version and refactoring legacy code to address regressions",
-                     "Expanded documentation architecture to support new independently versioned products through containerization",
-                     "Refactored Algolia InstantSearch and implemented federated search, allowing users to search and instantly see results across multiple products"
+                     "Manager responsible for all Portworx documentation, tooling, and writers"
                    ]
                 }
              ]
