@@ -26,7 +26,7 @@ class RenderExperience extends Component {
                                 {/* wrap each job */}
                                 <div class="entry">
                                     
-                                        {subsection.job_titles.map((list) => {
+                                        {subsection.job.map((list) => {
                                                 return(
                                                     <div>
                                                     <h3>
@@ -35,33 +35,36 @@ class RenderExperience extends Component {
                                                     <p class="resume-experience-tenure">
                                                         {list.tenure}
                                                     </p>
+                                                    <div>
+                                                    { 
+                                                        list.focus_area.map((focusArea) => {
+                                                            return(
+                                                                // wrap each experience subsection
+                                                                <div>
+                                                                    <h4>
+                                                                        {focusArea.focus_area_name}
+                                                                    </h4>
+                                                                    <ul>
+                                                                        {
+                                                                            focusArea.focus_area_list.map((list) => {
+                                                                                return(
+                                                                                    <li>
+                                                                                    {list}
+                                                                                    </li>
+                                                                                );
+                                                                            })
+                                                                        }
+                                                                    </ul>
+                                                                </div>
+                                                            );    
+                                                        }) 
+                                                    }
+                                                    </div>
                                                     </div>
                                                 );
                                             })
                                         }
-                                    { 
-                                        subsection.focus_area.map((focusArea) => {
-                                            return(
-                                                // wrap each experience subsection
-                                                <div>
-                                                    <h4>
-                                                        {focusArea.focus_area_name}
-                                                    </h4>
-                                                    <ul>
-                                                        {
-                                                            focusArea.focus_area_list.map((list) => {
-                                                                return(
-                                                                    <li>
-                                                                    {list}
-                                                                    </li>
-                                                                );
-                                                            })
-                                                        }
-                                                    </ul>
-                                                </div>
-                                            );    
-                                        }) 
-                                    }
+                                    
                                 </div>
                             </div>
                         );
