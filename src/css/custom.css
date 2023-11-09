@@ -33,9 +33,8 @@
 }
 
 .hero {
-  background-color: #ffca68;
-  opacity: 0.8;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffca68 10px ), repeating-linear-gradient( #ffbc4255, #ffbc42 );
+  background-color: #ffd17a;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffd17a 10px ), repeating-linear-gradient( #ffca6855, #ffca68 );
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
