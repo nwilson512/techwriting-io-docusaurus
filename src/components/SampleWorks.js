@@ -108,7 +108,7 @@ function SampleWorkCard() {
             <div class="card__footer">
             <a
                 className="button button--secondary button--block"
-                href="https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-snapshots/snapshot-methods/">
+                href="https://docs.portworx.com/portworx-enterprise/operations/operate-kubernetes/storage-operations/create-snapshots/snapshot-methods.html">
                 Visit the official docs
                 </a>
             </div>
