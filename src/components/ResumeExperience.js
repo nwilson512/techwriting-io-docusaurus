@@ -28,13 +28,19 @@ class RenderExperience extends Component {
                                     
                                         {subsection.job.map((list) => {
                                                 return(
+                                                    
                                                     <div>
-                                                    <h3>
-                                                        {list.job_title}
-                                                    </h3>
-                                                    <p class="resume-experience-tenure">
-                                                        {list.tenure}
-                                                    </p>
+                                                        {list.job_titles.map((foo) => {
+                                                            return(
+                                                            <div className="job-title">
+                                                            <h3>
+                                                                {foo.job_title}
+                                                            </h3>
+                                                            <p class="resume-experience-tenure">
+                                                                {foo.tenure}
+                                                            </p>
+                                                            </div>
+                                                        )})}
                                                     <div>
                                                     { 
                                                         list.focus_area.map((focusArea) => {

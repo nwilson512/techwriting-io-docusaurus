@@ -120,8 +120,36 @@ html[data-theme='dark'] {
   margin-top: .5rem;
 }
 
+/* .entry div {
+  margin-bottom: 2rem;
+} */
+
+.entry div {
+  /* margin-left: .6rem; */
+  }
+
+/* .entry div ul {
+  margin-left: .5rem;
+  } */
+
+.job-title p {
+  margin-bottom: 0;
+}
+
+  .job-title {
+  background-color: rgb(235, 237, 240);
+  border-radius: 6.4px;
+  /* margin: -.5rem; */
+  padding: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
 .entry div ul li {
 max-width: 900px;
+margin-bottom: .3rem;
 }
 
 .
