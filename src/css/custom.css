@@ -134,6 +134,11 @@ html[data-theme='dark'] {
 
 .job-title p {
   margin-bottom: 0;
+  color: rgb(28, 30, 33);
+}
+
+.job-title h3 {
+  color: rgb(28, 30, 33);
 }
 
   .job-title {
@@ -145,6 +150,7 @@ html[data-theme='dark'] {
   padding-bottom: .5rem;
   display: inline-block;
   margin-right: 1rem;
+  margin-bottom: .5rem;
 }
 
 .entry div ul li {
