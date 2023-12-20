@@ -54,6 +54,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   padding-left: 0;
 }
 
+.experience-jobs ul {
+  list-style-type: "- ";
+  padding-left: .5rem;
+}
+
+.experience-jobs h3 {
+  font-size: 18px;
+}
+
 .skills-list {
   max-width: 855px!important;
 }
@@ -200,6 +209,10 @@ margin-bottom: .3rem;
     h3 {
       font-size: 9pt;
     }
+    .experience-jobs h3 {
+      font-size: 8pt;
+    }
+    
     h4 {
       font-size: 8pt;
     }

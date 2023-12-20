@@ -13,7 +13,11 @@
                      },
                      {
                         "job_title": "Lead Technical Writer",
-                        "tenure": "July 2019 - April 2022"
+                        "tenure": "May 2021 - April 2022"
+                     },
+                     {
+                        "job_title": "Technical Writer",
+                        "tenure": "July 2019 - May 2021"
                      }
                   ],
                   "focus_area": [
@@ -23,7 +27,7 @@
                           "Hired and developed a team of full-time writers in both the US and India to support a growing Portworx product line: Portworx Data Services, Portworx Backup as-a-Service, Portworx Central On-prem",
                           "Developed an internal course, trained writers how to contribute using a docs-as-code workflow using an example repository and custom-made teaching materials",
                           "Planned and defined a strategic roadmap and documentation strategy that meets customers needs, adheres to budgetary requirements, and utilizes automation and AI to improve accuracy and multiply efficiency",
-                          "Prototyped and designed worklows using generative AI as part of the Pure Storage AI governance council",
+                          "Prototyped and designed workflows using generative AI as part of the Pure Storage AI governance council",
                           "Managed direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress"
                         ]
                      },
@@ -37,7 +41,7 @@
                      {
                         "focus_area_name": "Infrastructure",
                         "focus_area_list": [
-                          "Rearchitected docs.portworx.com, removing maintenance burden and centralizing content onto one site for a 'single pane of glass' experience",
+                          "Rearchitected docs.portworx.com, removing maintenance burden and centralizing content onto one site for a single pane of glass experience",
                           "Built custom authoring tools as react components: text variables, includes with conditional content, link cards, text highlights, a feedback form",
                           "Built a table automation tool for parsing upstream source data for the pxctl command into a reference, ensuring that this reference will remain up-to-date forever",
                           "Built a custom data file and parser for storing reference data in a single location and automating data pulls anywhere desired in documentation, making reference data easier to maintain",

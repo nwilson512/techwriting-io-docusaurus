@@ -14,7 +14,7 @@ class RenderExperience extends Component {
                     </h2>
                 </div>
                 {/* wrap experience section minus heading */}
-                <div class="col print-content-col">
+                <div class="col print-content-col experience-jobs">
                 {
                     experience.subsection.map((subsection) => {
                         return(
