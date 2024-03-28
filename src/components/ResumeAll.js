@@ -24,7 +24,7 @@ class ResumeAll extends Component {
           </ul>
           </div>
           <div class="col row padding-horiz--none skills-list print-content-col">
-            <p class="col print-description">Degreed software technical writer with a decade of experience writing for developer audiences, focusing on cloud and Kubernetes, specializing in docs-as-code approaches, and supporting those efforts with front end web development skills.</p>
+            <p class="col print-description">Degreed software technical writer with a decade of experience writing for developer audiences, practicing docs-as-code, performing front end web development, and accelerating everything with generative AI.</p>
           </div>
         </div>
         <ResumeExperience />

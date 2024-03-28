@@ -54,6 +54,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   padding-left: 0;
 }
 
+.experience-jobs ul {
+  list-style-type: "- ";
+  padding-left: .5rem;
+}
+
+.experience-jobs h3 {
+  font-size: 18px;
+}
+
 .skills-list {
   max-width: 855px!important;
 }
@@ -120,8 +129,42 @@ html[data-theme='dark'] {
   margin-top: .5rem;
 }
 
+/* .entry div {
+  margin-bottom: 2rem;
+} */
+
+.entry div {
+  /* margin-left: .6rem; */
+  }
+
+/* .entry div ul {
+  margin-left: .5rem;
+  } */
+
+.job-title p {
+  margin-bottom: 0;
+  color: rgb(28, 30, 33);
+}
+
+.job-title h3 {
+  color: rgb(28, 30, 33);
+}
+
+  .job-title {
+  background-color: rgb(235, 237, 240);
+  border-radius: 6.4px;
+  /* margin: -.5rem; */
+  padding: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
+}
+
 .entry div ul li {
 max-width: 900px;
+margin-bottom: .3rem;
 }
 
 .
@@ -166,6 +209,10 @@ max-width: 900px;
     h3 {
       font-size: 9pt;
     }
+    .experience-jobs h3 {
+      font-size: 8pt;
+    }
+    
     h4 {
       font-size: 8pt;
     }
@@ -183,7 +230,7 @@ max-width: 900px;
     }
     .resume-title {
       font-size: 50pt;
-      padding-left: 1.5in !important;
+      /* padding-left: 1.5in !important; */
       margin-bottom: 0;
     }
     .col.col--2 {

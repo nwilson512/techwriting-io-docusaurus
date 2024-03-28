@@ -14,7 +14,7 @@ class RenderExperience extends Component {
                     </h2>
                 </div>
                 {/* wrap experience section minus heading */}
-                <div class="col print-content-col">
+                <div class="col print-content-col experience-jobs">
                 {
                     experience.subsection.map((subsection) => {
                         return(
@@ -26,42 +26,51 @@ class RenderExperience extends Component {
                                 {/* wrap each job */}
                                 <div class="entry">
                                     
-                                        {subsection.job_titles.map((list) => {
+                                        {subsection.job.map((list) => {
                                                 return(
+                                                    
                                                     <div>
-                                                    <h3>
-                                                        {list.job_title}
-                                                    </h3>
-                                                    <p class="resume-experience-tenure">
-                                                        {list.tenure}
-                                                    </p>
+                                                        {list.job_titles.map((foo) => {
+                                                            return(
+                                                            <div className="job-title">
+                                                            <h3>
+                                                                {foo.job_title}
+                                                            </h3>
+                                                            <p class="resume-experience-tenure">
+                                                                {foo.tenure}
+                                                            </p>
+                                                            </div>
+                                                        )})}
+                                                    <div>
+                                                    { 
+                                                        list.focus_area.map((focusArea) => {
+                                                            return(
+                                                                // wrap each experience subsection
+                                                                <div>
+                                                                    <h4>
+                                                                        {focusArea.focus_area_name}
+                                                                    </h4>
+                                                                    <ul>
+                                                                        {
+                                                                            focusArea.focus_area_list.map((list) => {
+                                                                                return(
+                                                                                    <li>
+                                                                                    {list}
+                                                                                    </li>
+                                                                                );
+                                                                            })
+                                                                        }
+                                                                    </ul>
+                                                                </div>
+                                                            );    
+                                                        }) 
+                                                    }
+                                                    </div>
                                                     </div>
                                                 );
                                             })
                                         }
-                                    { 
-                                        subsection.focus_area.map((focusArea) => {
-                                            return(
-                                                // wrap each experience subsection
-                                                <div>
-                                                    <h4>
-                                                        {focusArea.focus_area_name}
-                                                    </h4>
-                                                    <ul>
-                                                        {
-                                                            focusArea.focus_area_list.map((list) => {
-                                                                return(
-                                                                    <li>
-                                                                    {list}
-                                                                    </li>
-                                                                );
-                                                            })
-                                                        }
-                                                    </ul>
-                                                </div>
-                                            );    
-                                        }) 
-                                    }
+                                    
                                 </div>
                             </div>
                         );

@@ -4,82 +4,125 @@
        "subsection": [
           {
              "subsection_name": "Portworx (Acquired by Pure Storage)",
-             "job_titles": [
+             "job": [
                 {
-                  "job_title": "Manager, Technical Documentation",
-                  "tenure": "April 2022 - Present"
-                },
-                {
-                  "job_title": "Lead Technical Writer",
-                  "tenure": "July 2019 - April 2022"
-                }
-             ],
-             "focus_area": [
-                {
-                   "focus_area_name": "",
-                   "focus_area_list": [
-                     "Manager responsible for all Portworx documentation, tooling, and writers"
-                   ]
+                  "job_titles": [
+                     {
+                     "job_title": "Manager, Technical Documentation",
+                     "tenure": "April 2022 - Present"
+                     },
+                     {
+                        "job_title": "Lead Technical Writer",
+                        "tenure": "May 2021 - April 2022"
+                     },
+                     {
+                        "job_title": "Technical Writer",
+                        "tenure": "July 2019 - May 2021"
+                     }
+                  ],
+                  "focus_area": [
+                     {
+                        "focus_area_name": "Leadership",
+                        "focus_area_list": [
+                          "Hired and developed a team of full-time writers in both the US and India to support a growing Portworx product line: Portworx Data Services, Portworx Backup as-a-Service, Portworx Central On-prem",
+                          "Developed an internal course, trained writers how to contribute through a docs-as-code workflow using an example repository and custom-made teaching materials",
+                          "Planned and defined a strategic roadmap and documentation strategy that meets customers needs, adheres to budgetary requirements, and utilizes automation and AI to improve accuracy and multiply efficiency",
+                          "Prototyped and designed workflows using generative AI as part of the Pure Storage AI Governance Council",
+                          "Managed direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress"
+                        ]
+                     },
+                     {
+                        "focus_area_name": "Product Documentation",
+                        "focus_area_list": [
+                          "Authored documentation and release notes for 88 Portworx Enterprise Kubernetes storage platform releases and hotfixes spanning a $27M series C through a $370M exit",
+                          "Expanded Portworx documentation from a single product to multiple spanning new product lines; launched PX-Backup 1.0 documentation and handed-off further writing to direct report"
+                        ]
+                     },
+                     {
+                        "focus_area_name": "Infrastructure",
+                        "focus_area_list": [
+                          "Rearchitected docs.portworx.com, removing maintenance burden and centralizing content onto one site for a single pane of glass experience",
+                          "Built custom authoring tools as react components: text variables, includes with conditional content, link cards, text highlights, a feedback form",
+                          "Built a table automation tool for parsing upstream source data for the pxctl command into a reference, ensuring that this reference will remain up-to-date forever",
+                          "Built a custom data file and parser for storing reference data in a single location and automating data pulls anywhere desired in documentation, making reference data easier to maintain",
+                          "Refactored Algolia InstantSearch and implemented federated search, allowing users to search and instantly see results across multiple products",
+                          "Managed GKE cluster ingress and TLS certs, then replaced it with a service to lower maintenance burden"
+                        ]
+                     }
+                  ]
                 }
              ]
           },
           {
              "subsection_name": "Celtra",
-             "job_titles": [
+             "job": [
                {
-                 "job_title": "Technical Writer",
-                 "tenure": "July 2018 - February 2019"
+                 "job_titles": [
+                  {
+                     "job_title": "Technical Writer",
+                     "tenure": "July 2018 - February 2019"
+                  }
+               ],
+                 "focus_area": [
+                     {
+                        "focus_area_name": "",
+                        "focus_area_list": [
+                           "Wrote and maintained support documentation for the Celtra Management Platform",
+                           "Performed front end development and administrative tasks for support.celtra.com",
+                           "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages using Javascript"
+                        ]
+                     }
+                  ]
                }
-            ],
-             "focus_area": [
-                {
-                   "focus_area_name": "",
-                   "focus_area_list": [
-                      "Created and maintained support documentation for the Celtra Management Platform",
-                      "Performed front end development and administrative tasks for support.celtra.com",
-                      "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages using Javascript"
-                   ]
-                }
-             ]
+            ]
           },
           {
              "subsection_name": "Red Hat",
-             "job_titles": [
+             "job": [
                {
-                  "job_title": "Technical Writer",
-                  "tenure": "January 2017 - July 2018"
+
+                  "job_titles": [
+                     {
+                        "job_title": "Technical Writer",
+                        "tenure": "January 2017 - July 2018"
+                     }
+                  ],
+                  "focus_area": [
+                     {
+                        "focus_area_name": "",
+                        "focus_area_list": [
+                           "Wrote and maintained documentation as sole writer for the Red Hat 3scale API Management Platform",
+                           "Migrated documentation from legacy formats to AsciiDoc and placed into GitLab repositories",
+                           "Implemented documentation initiatives: modularity, open sourcing"
+                        ]
+                     }
+                  ]
                }
-            ],
-             "focus_area": [
-                {
-                   "focus_area_name": "",
-                   "focus_area_list": [
-                      "Created and maintained documentation as sole writer for the Red Hat 3scale API Management Platform",
-                      "Migrated documentation from legacy formats to AsciiDoc and placed into GitLab repositories",
-                      "Implemented documentation initiatives: modularity, open sourcing"
-                   ]
-                }
-             ]
+            ]
           },
           {
              "subsection_name": "Hewlett Packard Enterprise",
-             "job_titles": [
+             "job": [
                {
-                  "job_title": "Technical Writer",
-                  "tenure": "August 2014 - January 2017"
+                  "job_titles": [
+                     {
+                        "job_title": "Technical Writer",
+                        "tenure": "August 2014 - January 2017"
+                     }
+                  ],
+                  "focus_area": [
+                     {
+                        "focus_area_name": "",
+                        "focus_area_list": [
+                           "Established a release publications team, designed a release process, and instructed team members on release procedures; during releases, delegated team tasks for product releases on my.vertica.com and oversaw publication operations",
+                           "Created and maintained documentation for HPE Software cloud products, including backup/restore, connector, and configuration guides",
+                           "Modernized documentation using topic-based authoring standards",
+                           "Implemented and reported on analytics for the documentation and community using Googe Analytics"
+                        ]
+                     }
+                  ]
                }
-            ],
-             "focus_area": [
-                {
-                   "focus_area_name": "",
-                   "focus_area_list": [
-                      "Established a release publications team, designed a release process, and instructed team members on release procedures; during releases, delegated team tasks for product releases on my.vertica.com and oversaw publication operations",
-                      "Created and maintained documentation for HPE Software cloud products, including backup/restore, connector, and configuration guides",
-                      "Modernized documentation using topic-based authoring standards",
-                      "Implemented and reported on analytics for the documentation and community using Googe Analytics"
-                   ]
-                }
-             ]
+            ]
           }
        ]
     },
@@ -145,7 +188,8 @@
           {
              "subsection_name": "Development tools",
              "subsection_list": [
-                "Git, GitHub"
+                "Git, GitHub",
+                "ChatGPT"
              ]
           }
        ]
@@ -154,10 +198,15 @@
        "education_section_name": "Education",
        "subsection": [
           {
-             "subsection_name": "University of North Texas, BA Technical Writing — 2013",
-             "degree_name": "",
-             "graduation_date": "" 
-          }
+             "subsection_name": "University of North Texas",
+             "degree_name": "BA English, Technical Writing concentration",
+             "graduation_date": "2013" 
+          },
+          {
+            "subsection_name": "Western Governors University",
+            "degree_name": "Additional coursework in computer science and networking",
+            "graduation_date": "2019" 
+         }
        ]
     }
 }
