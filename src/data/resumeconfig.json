@@ -27,7 +27,7 @@
                           "Hired and mentored a global team of full-time writers to support all Portworx product lines.",
                           "Developed and taught docs-as-code/markdown contribution model, enabling cross-department collaboration shepherded by custom-built automated checks via GitHub Actions.",
                           "Prototyped and co-developed an AI chatbot using a RAG model to assist with common queries and provide documentation links.",
-                          "Implemented an automated release notes process using generative AI, reducing pull request lifecycle by ~50%.",
+                          "Automated release notes process using generative AI, reducing pull request lifecycle by ~50%.",
                           "Rolled out a content strategy supporting unique doc sets for dozens of platforms, then single-sourced content to prevent article count from growing by 15x."
                         ]
                      },
@@ -45,8 +45,7 @@
                            "Built custom authoring tools with React (text variables, conditional content, link cards) to simplify documentation authoring.",
                            "Developed a table automation tool to parse upstream source data for the `pxctl` command, automating reference generation and ensuring accuracy.",
                            "Built a unified data parser for storing and pulling reference data into documentation, making reference data easier for contributors to find and maintain.",
-                           "Refactored search using Algolia InstantSearch, adding federated search across products with platform-specific filtering capabilities.",
-                           "Replaced self-managed GKE cluster ingress and TLS certificates with a service to lower the maintenance burden."
+                           "Refactored search using Algolia InstantSearch, adding federated search across products with platform-specific filtering capabilities."
                         ]
                      }
                   ]
@@ -67,9 +66,8 @@
                      {
                         "focus_area_name": "",
                         "focus_area_list": [
-                           "Wrote and maintained support documentation for the Celtra Management Platform.",
-                           "Performed front-end development and administrative tasks for support.celtra.com.",
-                           "Created interactive website documentation designs such as animated tables, feedback buttons and forms, and landing pages using JavaScript."
+                           "Performed front-end development and administrative tasks for support.celtra.com, creating interactive features with JavaScript.",
+                           "Developed custom documentation tools including animated tables, feedback buttons, and interactive landing pages."
                         ]
                      }
                   ]
@@ -92,8 +90,7 @@
                         "focus_area_name": "",
                         "focus_area_list": [
                            "Wrote and maintained documentation as the sole writer for the Red Hat 3scale API Management Platform.",
-                           "Migrated documentation from legacy formats to AsciiDoc and placed it into GitLab repositories.",
-                           "Implemented documentation initiatives: modularity, open sourcing."
+                           "Migrated documentation from legacy formats to AsciiDoc and placed it into GitLab repositories."
                         ]
                      }
                   ]
