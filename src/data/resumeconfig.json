@@ -42,7 +42,7 @@
                         "focus_area_name": "Infrastructure",
                         "focus_area_list": [
                            "Rearchitected docs.portworx.com to centralize content for a single-pane-of-glass experience, significantly reducing maintenance overhead.",
-                           "Built custom authoring tools with React (text variables, conditional content, link cards) to simplify documentation authoring.",
+                           "Built custom authoring tools with React (text variables, conditional content, link cards) to enhance documentation authoring.",
                            "Developed a table automation tool to parse upstream source data for the `pxctl` command, automating reference generation and ensuring accuracy.",
                            "Built a unified data parser for storing and pulling reference data into documentation, making reference data easier for contributors to find and maintain.",
                            "Refactored search using Algolia InstantSearch, adding federated search across products with platform-specific filtering capabilities."
@@ -174,7 +174,6 @@
              "subsection_name": "Containers",
              "subsection_list": [
                 "Kubernetes",
-                "Google Kubernetes Engine (GKE)",
                 "Openshift container platform (OCP)"
              ]
           },
