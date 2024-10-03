@@ -24,31 +24,29 @@
                      {
                         "focus_area_name": "Leadership",
                         "focus_area_list": [
-                          "Hired and developed a team of full-time writers in both the US and India to support a growing Portworx product line: Portworx Data Services, Portworx Backup as-a-Service, Portworx Central On-prem.",
-                          "Developed a docs-as-code/markdown contribution model powerful enough for technical writing needs, but intuitive and accessible enough for other departments to contribute through PRs. Put various guardrails and checks in place through GitHub Actions to ensure all contributors adhere to documentation standards. Taught contribution methods in open sessions across the business unit.",
-                          "Prototyped an internal AI chatbot POC using a RAG method to answer common questions and provide documentation links to users, then collaborated with engineering to develop it into a beta version.",
-                          "Created bespoke Portworx Enterprise documentation sets, allowing users to view instructions specific to their platform, then single-sourced content to prevent article count expansion by 15x.",
-                          "Planned and defined a strategic roadmap and documentation strategy that meets customers' needs, adheres to budgetary requirements, and utilizes automation and AI to improve accuracy and multiply efficiency.",
-                          "Prototyped and designed workflows for automating release notes process using generative AI as part of the Pure Storage AI Governance Council, reducing release notes writing effort by half.",
-                          "Managed direct reports using Jira and GitHub to define and triage work, delegate tasks, and monitor progress."
+                          "Hired and mentored a global team of full-time writers to support all Portworx product lines.",
+                          "Developed and taught docs-as-code/markdown contribution model, enabling cross-department collaboration shepherded by custom-built automated checks via GitHub Actions.",
+                          "Prototyped and co-developed an AI chatbot using a RAG model to assist with common queries and provide documentation links.",
+                          "Implemented an automated release notes process using generative AI, reducing pull request lifecycle by ~50%.",
+                          "Rolled out a content strategy supporting unique doc sets for dozens of platforms, then single-sourced content to prevent article count from growing by 15x."
                         ]
                      },
                      {
                         "focus_area_name": "Product Documentation",
                         "focus_area_list": [
-                          "Authored documentation and release notes for 88 Portworx Enterprise Kubernetes storage platform releases and hotfixes, spanning a $27M Series C through a $370M exit.",
-                          "Expanded Portworx documentation from a single product to multiple spanning new product lines; launched PX-Backup 1.0 documentation and handed off further writing to a direct report."
+                          "Authored documentation and release notes for 88 Portworx Enterprise releases and hotfixes, spanning a $27M Series C through a $370M exit.",
+                          "Expanded Portworx documentation to multiple new product lines; launched PX-Backup 1.0 documentation and delegated further writing to a direct report."
                         ]
                      },
                      {
                         "focus_area_name": "Infrastructure",
                         "focus_area_list": [
-                          "Rearchitected docs.portworx.com, removing maintenance burdens and centralizing content onto one site for a single-pane-of-glass experience.",
-                          "Built custom authoring tools as React components: text variables, includes with conditional content, link cards, text highlights, a feedback form.",
-                          "Built a table automation tool for parsing upstream source data for the pxctl command into a reference, eliminating the need for manual updates and ensuring that this reference will remain up-to-date indefinitely.",
-                          "Built a custom data file and parser for storing reference data in a single location and automating data pulls anywhere desired in documentation, making reference data easier for contributors to find and maintain.",
-                          "Refactored Algolia InstantSearch and implemented federated search, allowing users to search and instantly see results across multiple products. Added facets to constrain results to specific products, orchestrators, and platforms.",
-                          "Managed GKE cluster ingress and TLS certificates, then replaced it with a service to lower the maintenance burden."
+                           "Rearchitected docs.portworx.com to centralize content for a single-pane-of-glass experience, significantly reducing maintenance overhead.",
+                           "Built custom authoring tools with React (text variables, conditional content, link cards) to simplify documentation authoring.",
+                           "Developed a table automation tool to parse upstream source data for the `pxctl` command, automating reference generation and ensuring accuracy.",
+                           "Built a unified data parser for storing and pulling reference data into documentation, making reference data easier for contributors to find and maintain.",
+                           "Refactored search using Algolia InstantSearch, adding federated search across products with platform-specific filtering capabilities.",
+                           "Replaced self-managed GKE cluster ingress and TLS certificates with a service to lower the maintenance burden."
                         ]
                      }
                   ]
@@ -116,10 +114,8 @@
                      {
                         "focus_area_name": "",
                         "focus_area_list": [
-                           "Established a release publications team, designed a release process, and instructed team members on release procedures; during releases, delegated team tasks for product releases on my.vertica.com and oversaw publication operations.",
-                           "Created and maintained documentation for HPE Software cloud products, including backup/restore, connector, and configuration guides.",
-                           "Modernized documentation using topic-based authoring standards.",
-                           "Implemented and reported on analytics for the documentation and community using Google Analytics."
+                           "Led release publications team and maintained documentation for HPE Software cloud products.",
+                           "Implemented topic-based authoring standards for modernization."
                         ]
                      }
                   ]
@@ -150,14 +146,13 @@
              "subsection_list": [
                "Docusaurus",
                "Hugo",
-               "Jekyll",
-               "Statamic"
+               "Jekyll"
              ]
           },
           {
-            "subsection_name": "Programming & Query Languages",
-            "subsection_list": [
-               "Javascript/Node.js",
+             "subsection_name": "Programming & Query Languages",
+             "subsection_list": [
+               "JavaScript (Node.js)",
                "Python",
                "C",
                "SQL"
@@ -167,7 +162,6 @@
              "subsection_name": "Web Languages & Utilities",
              "subsection_list": [
                 "HTML/CSS",
-                "Javascript",
                 "React"
              ]
           },
@@ -188,7 +182,7 @@
              ]
           },
           {
-             "subsection_name": "Development tools",
+             "subsection_name": "Development Tools",
              "subsection_list": [
                 "Git, GitHub",
                 "ChatGPT, Copilot"
