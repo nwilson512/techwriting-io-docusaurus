@@ -28,7 +28,7 @@
                           "Developed and taught docs-as-code/markdown contribution model, enabling cross-department collaboration shepherded by custom-built automated checks via GitHub Actions.",
                           "Prototyped and co-developed an AI chatbot using a RAG model to assist with common queries and provide documentation links.",
                           "Automated release notes process using generative AI, reducing pull request lifecycle by ~50%.",
-                          "Rolled out a content strategy supporting unique doc sets for dozens of platforms, then single-sourced content to prevent article count from growing by 15x."
+                          "Rolled out a content strategy supporting unique doc sets for dozens of platforms, then single-sourced content to prevent a 15x increase in article count."
                         ]
                      },
                      {
@@ -43,7 +43,7 @@
                         "focus_area_list": [
                            "Rearchitected docs.portworx.com to centralize content for a single-pane-of-glass experience, significantly reducing maintenance overhead.",
                            "Built custom authoring tools with React (text variables, conditional content, link cards) to enhance documentation authoring.",
-                           "Developed a table automation tool to parse upstream source data for the `pxctl` command, automating reference generation and ensuring accuracy.",
+                           "Developed a table automation tool to parse upstream source data for a CLI, automating reference generation and ensuring accuracy.",
                            "Built a unified data parser for storing and pulling reference data into documentation, making reference data easier for contributors to find and maintain.",
                            "Refactored search using Algolia InstantSearch, adding federated search across products with platform-specific filtering capabilities."
                         ]
@@ -174,7 +174,7 @@
              "subsection_name": "Containers",
              "subsection_list": [
                 "Kubernetes",
-                "Openshift container platform (OCP)"
+                "OpenShift container platform (OCP)"
              ]
           },
           {
