@@ -10,7 +10,7 @@ import RpsapiReference from "../../src/components/RpsapiReference";
 
 ## The Rock Paper Scissors API
 
-The Rock Paper Scissors API (RPSAPI) is a REST API that allows you to play rock paper scissors against a computer player. Using the RPSAPI, you can revisit a proven and universal method of dispute resolution from your childhood. Although, I don't recommend using this to make any important life decisions.
+The Rock Paper Scissors API (RPSAPI) is a REST API that allows you to play rock paper scissors against a computer player. Using the RPSAPI, you can revisit a proven and universal method of dispute resolution from your childhood. You can use this API to build your own rock paper scissors front end for the game itself, or use the supplied documentation endpoints to generate an automated reference. This API is particularly useful for students and in teaching environments exploring REST APIs or practicing front end development.
 
 Within the API, you can do the following:
 
@@ -42,7 +42,7 @@ Using cURL, you can manually call all of the endpoints in the Rock Paper Scissor
 
 ## How it works
 
-I wrote the Rock Paper Scissors API in Javascript, and it uses Express to handle requests and a Mongoose database to store player and game data.
+The Rock Paper Scissors API codebase is Javascript, and it uses Express to handle requests and a Mongoose database to store player and game data.
 
 The following diagram illustrates the general architecture of this API:
 
@@ -67,7 +67,7 @@ The RPSAPI generates the computer's using a pseudorandom (in a generous sense of
 
 ### Documentation endpoint
 
-I wrote the API documentation into the server.js source code, and you can access it at its own endpoint. The following code snippet shows the router get function, the endpoint string, and response JSON:
+RPSAPI documentation is written into the server.js source code, and you can access it at its own endpoint. The following code snippet shows the router get function, the endpoint string, and response JSON:
 
 ```js
 router.get('/v1/docs', function(req, res) {
@@ -85,11 +85,11 @@ router.get('/v1/docs', function(req, res) {
         <...>
 ```
 
-I wrote an API documentation automation script, which automatically retrieves the reference documentation for this site from this endpoint, parses, and writes the data into this page's YAML frontmatter. For more information, including the full code, see the [API Documentation Automation](/docs/sample-works/api-documentation-automation) section of my sample work.
+You can also explore a sample API documentation automation script, which automatically retrieves the reference documentation for this site from this endpoint, parses, and writes the data into this page's YAML frontmatter. For more information, including the full code, see the [API Documentation Automation](/docs/sample-works/api-documentation-automation) section of the Techwriting.io sample works page.
 
 ### API versioning
 
-This API features rudimentary versioning support through manually prepended strings prepared for the router. This allows me to develop more sophisticated versioning code at a later date while not impacting the end user experience.
+This API features rudimentary versioning support through manually prepended strings prepared for the router. You can use this to develop more sophisticated versioning code at a later date while not impacting the end user experience.
 
 ```js
 router.get('/v1/docs' <...>
@@ -97,7 +97,7 @@ router.get('/v1/docs' <...>
 
 ### Database
 
-A Mongoose library handles database access. The database itself is hosted by the Mlab cloud storage provider. This reduces the complexity of administration, and allows me to query the same database from both development and production versions of my API.
+A Mongoose library handles database access. The database itself is hosted by the Mlab cloud storage provider. This reduces the complexity of administration, and allows you to query the same database from both development and production versions of the API.
 
 ```js
 // open a connection with mongoose DB at mLab. This is not a production solution.

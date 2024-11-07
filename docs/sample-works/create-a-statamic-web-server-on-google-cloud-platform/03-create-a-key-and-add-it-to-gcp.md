@@ -23,7 +23,7 @@ Your VM authenticates with other components through encrypted key pairs. Before 
 You can manage your keys on GCP in one of two ways: you can use the [OS Login](https://cloud.google.com/compute/docs/oslogin/) Google service, or you can manage keys manually in the project metadata [manually](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys).
 
 :::caution
-I strongly recommend following Google's advice and using [OS Login](https://cloud.google.com/compute/docs/oslogin/) for production servers.
+Techwriting.io strongly recommends following Google's advice and using [OS Login](https://cloud.google.com/compute/docs/oslogin/) for production servers.
 :::
 
 **Perform the following steps to create a key pair and manually add a key to a GCP Project:**
@@ -69,7 +69,7 @@ I strongly recommend following Google's advice and using [OS Login](https://clou
     ![](/img/gcpPaste.png)
 
     :::caution
-    This process manually assigns fixed key access. I strongly recommend rotating your keys on a planned interval as part of your security policies.
+    This process manually assigns fixed key access. Techwriting.io strongly recommends rotating your keys on a planned interval as part of your security policies.
     :::
 
 9. Ensure your public key was properly added by connecting to your VM using secure shell (SSH):

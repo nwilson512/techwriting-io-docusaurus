@@ -10,9 +10,7 @@ prev-page:
   title: Create a Statamic web server on Google Cloud Platform
 ---
 
-GCP Compute Engines are virtual machines (VM) that run in the cloud. When you create a Compute Engine instance, GCP places it within logical and network groups associated with your project.
-
-When you create and manage a web server at this level, you are working in the infrastructure layer and are using GCP as an **infrastructure as a service** provider.
+GCP Compute Engines are virtual machines (VM) that run in the cloud. When you create a Compute Engine instance, GCP places it within logical and network groups associated with your project. When you create and manage a web server at this level, you are working in the infrastructure layer and are using GCP as an **infrastructure as a service** provider.
 
 **Perform the following steps to create a GCP Compute Engine instance that will become your production web server:**
 

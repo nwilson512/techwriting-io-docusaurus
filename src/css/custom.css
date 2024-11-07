@@ -107,7 +107,7 @@ html[data-theme='dark'] {
   margin-top: 2px;
 }
 
-.print-email a:link, a:visited, a:focus, a:hover {
+.print-email a:link, .print-email a:visited, .print-email a:focus, .print-email a:hover {
   color: unset;
   text-decoration: none;
 }

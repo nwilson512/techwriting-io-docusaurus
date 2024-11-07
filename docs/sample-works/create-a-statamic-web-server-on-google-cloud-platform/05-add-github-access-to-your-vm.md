@@ -49,7 +49,7 @@ Just as you added your development computer to your GitHub repo, you must also a
     The trailing “id_rsa.pub” determines what name your web server's public key file has on your local machine. You’ll also want to be in an appropriate directory when you issue the SCP command, it pulls it into your current directory.
     </li>
     <li>
-    Some operating systems may hide and not display id_rsa.pub keys in file browsers. If you don't see your downloaded key, I recommend you check your directory location using the terminal command `ls`.
+    Some operating systems may hide and not display id_rsa.pub keys in file browsers. If you don't see your downloaded key, Techwriting.io recommends you check your directory location using the terminal command `ls`.
     </li>
     </ul>
     :::

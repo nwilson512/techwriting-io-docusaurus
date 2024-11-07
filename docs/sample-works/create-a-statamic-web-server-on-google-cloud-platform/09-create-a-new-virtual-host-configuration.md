@@ -17,7 +17,7 @@ In Apache, the virtual host file allows you to specify multiple configuration pa
     cd /etc/apache2/sites-available
     ```
 
-2. Create a new virtual host configuration file for your Statamic site by copying the "000-default.conf" file. There isn't a strict naming requirement, but I recommend giving it the same name as your project folder:
+2. Create a new virtual host configuration file for your Statamic site by copying the "000-default.conf" file. There isn't a strict naming requirement, but Techwriting.io recommends giving it the same name as your project folder:
 
     ```
     cp 000-default.conf exampleSite.conf
@@ -36,9 +36,9 @@ In Apache, the virtual host file allows you to specify multiple configuration pa
     ```
 
 5. Save your configuration file with the following keystrokes:
-  * `:w`
-  * `:q`
-  * `ENTER`
+    * `:w`
+    * `:q`
+    * `ENTER`
 
 6. Enable your virtual host file using the `a2ensite` command:
 
